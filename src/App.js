@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import official from './assets/images/Official.jpg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <img src={official} alt="Akash Ambashankar"/>
+
+        <ul>
+            My Stuff
+            <li><a href="https://coronavirus-live-tracker.herokuapp.com/">Coronavirus Live Tracker</a></li>
+            <li><a href="https://stanlee-tribute.netlify.app/">Stan Lee Tribute Page</a></li>
+            <li><a href="https://akash-writes.blogspot.com/">My Blog</a></li>
+    	</ul>
+      
     </div>
   );
 }
