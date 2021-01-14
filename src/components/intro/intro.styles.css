@@ -1,0 +1,35 @@
+#intro {
+    margin-top: 100px;
+}
+
+#profile-picture-closed {
+    width: 60%;
+    cursor: pointer;
+}
+
+#profile-picture-container {
+    text-align: center;
+}
+
+.intro-content {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.add-spacing {
+    word-spacing: 0.2em;
+}
+
+#intro-name {
+    font-weight: 700;
+    font-size: 1.65rem;
+}
+
+@media(min-width: 768px) {
+    #intro-content {
+        width: 100%;
+    }
+}
