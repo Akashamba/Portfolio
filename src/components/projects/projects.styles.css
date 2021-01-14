@@ -1,0 +1,12 @@
+.project-link, .project-link:visited, .project-link:active {
+    color: #fff;
+    text-decoration-color: #9050fe;
+}
+
+.project-link:hover {
+    color: #9050fe;
+}
+
+.project {
+    margin: 10px 0;
+}

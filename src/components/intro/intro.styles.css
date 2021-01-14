@@ -13,6 +13,7 @@
 
 #profile-picture-container {
     text-align: center;
+    margin-top: 40px;
 }
 
 .intro-content {
@@ -37,6 +38,6 @@
         width: 100%;
     }
     #profile-picture-closed {
-        width: 45%;
+        width: 35%;
     }
 }
