@@ -2,9 +2,13 @@
     margin-top: 100px;
 }
 
+#intro-container {
+    padding: 20px 24px;
+}
+
 #profile-picture-closed {
-    width: 60%;
-    cursor: pointer;
+    width: 50%;
+    border-radius: 50%;
 }
 
 #profile-picture-container {
@@ -14,7 +18,7 @@
 .intro-content {
     width: 80%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 40px;
     text-align: center;
     font-size: 1.1rem;
 }
@@ -31,5 +35,8 @@
 @media(min-width: 768px) {
     #intro-content {
         width: 100%;
+    }
+    #profile-picture-closed {
+        width: 45%;
     }
 }
