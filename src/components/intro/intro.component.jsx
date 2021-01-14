@@ -16,7 +16,7 @@ export default function Intro() {
 
                 <Grid item xs={12} md={5}>
                     <div className="content intro-content">
-                        <p id="intro-name" className="add-spacing">Akash Ambashankar</p>
+                        <p id="intro-name" className="add-spacing"><span className="underline">Akash</span> <span className="underline">Ambashankar</span></p>
                         <p>{getAge()} y/o<span className="add-spacing"> • </span>Computer Science Engineer</p>
                         <p>Web Developer</p>
                     </div>
