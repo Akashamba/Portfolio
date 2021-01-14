@@ -1,7 +1,7 @@
 import React from 'react';
 import official from '../../assets/images/Official.jpg';
 import getAge from '../../utilities/age-calculator.js'
-import {Grid, Typography} from '@material-ui/core'
+import {Grid} from '@material-ui/core'
 import {useHistory} from 'react-router-dom'
 import './intro.styles.css'
 
