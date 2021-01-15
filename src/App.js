@@ -9,7 +9,7 @@ function App() {
     
     return (
         <div className="App">
-            <AppBar position="fixed"><Toolbar><p className="appbar-text">About Me</p></Toolbar></AppBar>
+            <AppBar position="fixed"><Toolbar><p className="appbar-text">about me</p></Toolbar></AppBar>
             <Switch>
                 <Route exact path='/' component={Homepage}/>
                 <Route><Redirect to='/'/></Route>
