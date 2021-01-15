@@ -10,3 +10,20 @@
 .project {
     margin: 10px 0;
 }
+
+.content li {
+    font-size: 1.1rem;
+}
+
+.main-list {
+    list-style: none;
+}
+
+.main-list > li::before {
+    content: "\2666";  
+    color: #28cbfd; 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}

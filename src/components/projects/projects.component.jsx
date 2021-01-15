@@ -13,7 +13,7 @@ export default function Languages() {
     return (
         <div className="content">
             <h3 className="sub-title">Projects</h3>
-            <ul>
+            <ul className="main-list">
                 {projects.map(project => (
                     <li key={project.name} className="project"><a className="project-link" href={project.link}>{project.name}</a></li>
                 ))}

@@ -4,7 +4,7 @@ export default function Languages() {
     return (
         <div className="content">
             <h3>Skills and Languages</h3>
-            <ul>
+            <ul className="main-list">
                 <li className="main-item">
                     <span style={{fontWeight: 'bold'}}>Web Development</span>
                     <ul>
