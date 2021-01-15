@@ -5,12 +5,12 @@
     height: 100%;
 }
 
-.lang-and-projects-item {
+.grid-item {
     padding: 20px 0;
 }
 
 @media(min-width: 768px) {
-    .lang-and-projects-item {
+    .grid-item {
         padding: 20px;
     }
 }
