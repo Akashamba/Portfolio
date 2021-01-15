@@ -36,7 +36,9 @@
 }
 
 #intro-name {
-    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 500;
     font-size: 1.65rem;
 }
 
