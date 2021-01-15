@@ -17,6 +17,13 @@
 
 ul {
     list-style: none;
+    padding-inline-start: 20px;
+}
+
+@media(min-width: 768px) {
+    ul {
+        padding-inline-start: 30px;
+    }
 }
 
 li {

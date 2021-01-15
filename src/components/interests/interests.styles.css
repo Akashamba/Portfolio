@@ -19,7 +19,6 @@
     -webkit-column-gap: 0px;
     column-count: 2;
     column-gap: 0px;
-    padding-inline-start: 10px;
 }
 
 @media(min-width: 768px) {
@@ -27,7 +26,6 @@
         -moz-column-gap: 10px;
         -webkit-column-gap: 10px;
         column-gap: 10px;
-        padding-inline-start: 40px;
     }
 }
 
