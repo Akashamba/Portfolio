@@ -6,11 +6,11 @@
 }
 
 .grid-item {
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
 @media(min-width: 768px) {
     .grid-item {
-        padding: 20px;
+        padding: 40px 20px;
     }
 }
