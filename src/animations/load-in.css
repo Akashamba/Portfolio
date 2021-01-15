@@ -81,32 +81,38 @@
     }
 }
 .social-icon {
-    animation: flicker 1s;
+    animation: flicker infinite;
 }
 
 .fa-instagram {
     --color: #29cbfd;
-    animation-delay: 0.75s;
+    animation-delay: 1s;
+    animation-duration: 2s;
 }
 .fa-twitter {
     --color: #49a4fe;
-    animation-delay: 1s;
+    animation-delay: 2s;
+    animation-duration: 2s;
 }
 .fa-github {
     --color: #6c7bfe;
-    animation-delay: 1.25s;
+    animation-delay: 3s;
+    animation-duration: 2s;
 }
 .fa-linkedin-in {
     --color: #7471fe;
-    animation-delay: 1.5s;
+    animation-delay: 4s;
+    animation-duration: 2s;
 }
 .fa-medium-m {
     --color: #9050fe;
-    animation-delay: 1.75s;
+    animation-delay: 5s;
+    animation-duration: 2s;
 }
 .fa-envelope {
     --color: #9050fe;
-    animation-delay: 2s;
+    animation-delay: 6s;
+    animation-duration: 2s;
 }
 
 
