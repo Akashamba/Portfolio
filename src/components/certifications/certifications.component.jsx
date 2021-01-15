@@ -4,18 +4,18 @@ import './certifications.styles.css'
 export default function Certifications() {
     return (
         <div className="content">
-            <h2 className="sub-title">Certifications and Recognitions</h2>
+            <h2 className="sub-title">Certifications & Recognitions</h2>
             <ul className="main-list">
-                <li className="certification">
-                    <span style={{fontWeight: 'bold'}}>Web Design for Everybody Specialization</span>
-                    <span className="university">University of Michigan</span>
-                    <a className="certification-link" href="https://www.coursera.org/account/accomplishments/specialization/certificate/CQ6DZNM49XE4">View Certificate</a>
-                </li>
-                <br/>
                 <li className="certification">
                     <span style={{fontWeight: 'bold'}}>Complete React Developer in 2021 (w/ Redux, Hooks, GraphQL)</span>
                     <span className="university"><a className="certification-link" href="https://www.udemy.com/course/complete-react-developer-zero-to-mastery/">Udemy</a></span>
                     <span>In Progress</span>
+                </li>
+                <br/>
+                <li className="certification">
+                    <span style={{fontWeight: 'bold'}}>Web Design for Everybody Specialization</span>
+                    <span className="university">University of Michigan</span>
+                    <a className="certification-link" href="https://www.coursera.org/account/accomplishments/specialization/certificate/CQ6DZNM49XE4">View Certificate</a>
                 </li>
                 <br/>
                 <li className="certification">
@@ -25,8 +25,9 @@ export default function Certifications() {
                 </li>
                 <br/>
                 <li className="certification">
-                    <span style={{fontWeight: 'bold'}}>Interdepartmental Paper Presentation Contest</span>
-                    <span className="university">Runner Up</span>
+                    <span style={{fontWeight: 'bold'}}>Motion Microscope to detect Covid-19</span>
+                    <span style={{display: 'block'}}>Research Paper Presentation Contest</span>
+                    <span style={{display: 'block'}}>Runners Up (Team of Three)</span>
                 </li>
                 <br/>
                 {/*<li className="certification">
@@ -41,7 +42,7 @@ export default function Certifications() {
                     <a className="certification-link" href="https://assets.steptest.in/certificates/STEP-592605440935006485-20200129095622.pdf">View Certificate</a>
                 </li>*/}   
 
-                <p>Checkout My <a href="https://www.linkedin.com/in/akash-ambashankar/" className="more-certification-link">LinkedIn</a> for more</p>
+                <p>Visit <a href="https://www.linkedin.com/in/akash-ambashankar/" className="more-certification-link">LinkedIn</a> for more certifications</p>
             </ul>
         </div>
     )

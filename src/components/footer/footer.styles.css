@@ -3,4 +3,24 @@
     text-align: center;
     padding: 30px 0;
     font-size: 1.1rem;
+    font-size: 1.13rem;
+}
+
+.footer-link, .footer-link:visited, .footer-link:active {
+    color: #fff;
+    text-decoration-color: #9050fe;
+}
+
+.footer-link:hover {
+    text-decoration-color: #28cbfd;
+}
+
+.footer-icon {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0 5px;
+}
+
+.footer-icon:hover {
+    color: #9050fe;
 }

@@ -9,6 +9,7 @@ function App() {
     
     return (
         <div className="App">
+            <div id="top"></div>
             <AppBar position="fixed"><Toolbar><p className="appbar-text">Akash</p></Toolbar></AppBar>
             <Switch>
                 <Route exact path='/' component={Homepage}/>

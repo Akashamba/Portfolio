@@ -3,7 +3,7 @@ import React from 'react';
 export default function Languages() {
     return (
         <div className="content">
-            <h2 className="sub-title">Skills and Languages</h2>
+            <h2 className="sub-title">Skills & Languages</h2>
             <ul className="main-list">
                 <li className="main-item">
                     <span style={{fontWeight: 'bold'}}>Web Development</span>

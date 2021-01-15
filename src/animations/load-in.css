@@ -50,7 +50,7 @@
 
 @-webkit-keyframes flicker {
     0% {
-        color: var(--color);
+        color: #29cbfd;
     }
     100% {
         color: #fff;
@@ -58,7 +58,7 @@
 }
 @-moz-keyframes flicker {
     0% {
-        color: var(--color);
+        color: #29cbfd;
     }
     100% {
         color: #fff;
@@ -66,7 +66,7 @@
 }
 @-o-keyframes flicker {
     0% {
-        color: var(--color);
+        color: #29cbfd;
     }
     100% {
         color: #fff;
@@ -74,7 +74,7 @@
 }
 @keyframes flicker {
     50% {
-        color: var(--color);
+        color: #29cbfd;
     }
     100% {
         color: #fff;
@@ -87,28 +87,22 @@
 }
 
 .fa-instagram {
-    --color: #29cbfd;
     animation-delay: 1s;
 }
 .fa-twitter {
-    --color: #49a4fe;
-    animation-delay: 2s;
+    animation-delay: 1.5s;
 }
 .fa-github {
-    --color: #6c7bfe;
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 .fa-linkedin-in {
-    --color: #7471fe;
-    animation-delay: 4s;
+    animation-delay: 2.5s;
 }
 .fa-medium-m {
-    --color: #9050fe;
-    animation-delay: 5s;
+    animation-delay: 3s;
 }
 .fa-envelope {
-    --color: #9050fe;
-    animation-delay: 6s;
+    animation-delay: 3.5s;
 }
 
 

@@ -19,6 +19,7 @@ export default function Intro() {
                         <p id="intro-name" className="add-spacing">Akash Ambashankar</p>
                         <p>{getAge()} y/o<span className="add-spacing"> • </span>Computer Science Engineer</p>
                         <p>Web Developer</p>
+                        <p>Aspiring Security Engineer</p>
                     </div>
                 </Grid>
             </Grid>

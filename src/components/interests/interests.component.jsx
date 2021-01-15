@@ -29,7 +29,15 @@ export default function Interests() {
                         <li className="interest">Skrillex</li>
                     </ul>
                 </li>
-                <li className="interest">Keeping things Organized and Systematic</li>
+                <li className="interest">
+                    <span style={{width: '100%'}}>Work Approach</span>
+                    <ul className="sub-list" id="artist-list">
+                        <li className="interest">Structured</li>
+                        <li className="interest">Organized</li>
+                        <li className="interest">Methodical</li>
+                        <li className="interest">Systematic</li>
+                    </ul>
+                </li>
             </ul>
         </div>
     )
