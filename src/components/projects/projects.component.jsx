@@ -15,7 +15,7 @@ export default function Languages() {
             <h3 className="sub-title">Projects</h3>
             <ul>
                 {projects.map(project => (
-                    <li className="project"><a className="project-link" href={project.link}>{project.name}</a></li>
+                    <li key={project.name} className="project"><a className="project-link" href={project.link}>{project.name}</a></li>
                 ))}
                 <li className="project">Telegram Chatbots</li>
             </ul>

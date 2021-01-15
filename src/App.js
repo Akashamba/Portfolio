@@ -3,6 +3,7 @@ import Homepage from './pages/homepage/homepage.component.jsx';
 import {AppBar, Toolbar} from '@material-ui/core'
 import {Switch, Route, Redirect} from 'react-router-dom';
 import './App.css';
+import './animations/load-in.css';
 
 function App() {
     

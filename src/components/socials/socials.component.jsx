@@ -14,7 +14,7 @@ export default function Socials() {
     return(
         <Grid container id="socials">
             {icons.map(icon => (
-                <Grid item xs={2} key={icon}>
+                <Grid item xs={2} key={icon.name}>
                     <a href={icon.link}><i className={`social-icon ${icon.name}`}></i></a>
                 </Grid>
             ))}
