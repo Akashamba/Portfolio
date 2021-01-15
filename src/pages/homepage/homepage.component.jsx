@@ -6,7 +6,7 @@ import Projects from '../../components/projects/projects.component';
 import Footer from '../../components/footer/footer.component';
 import Certifications from '../../components/certifications/certifications.component';
 import Interests from '../../components/interests/interests.component';
-import {Grid} from '@material-ui/core';
+import {Grid, Container} from '@material-ui/core';
 import './homepage.styles.css';
 
 export default function Homepage() {
@@ -14,21 +14,22 @@ export default function Homepage() {
         <div>
             <Intro/>
             <br/><br/>
-            <Socials/>
-            <Grid id="lang-and-projects" container>
-                <Grid className="grid-item" item xs={12} md={6}>
-                    <Languages/>
+            <Container style={{padding: '0'}} maxWidth="lg"><Socials/>
+                <Grid id="lang-and-projects" container>
+                    <Grid className="grid-item" item xs={12} md={6}>
+                        <Languages/>
+                    </Grid>
+                    <Grid className="grid-item" item xs={12} md={6}>
+                        <Projects/>
+                    </Grid>
+                    <Grid className="grid-item" item xs={12} md={6}>
+                        <Interests/>
+                    </Grid>
+                    <Grid className="grid-item" item xs={12} md={6}>
+                        <Certifications/>
+                    </Grid>
                 </Grid>
-                <Grid className="grid-item" item xs={12} md={6}>
-                    <Projects/>
-                </Grid>
-                <Grid className="grid-item" item xs={12} md={6}>
-                    <Interests/>
-                </Grid>
-                <Grid className="grid-item" item xs={12} md={6}>
-                    <Certifications/>
-                </Grid>
-            </Grid>
+            </Container>
             <Footer/>
         </div>
     )
