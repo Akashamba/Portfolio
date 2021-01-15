@@ -16,6 +16,9 @@ export default function Homepage() {
             <br/><br/>
             <Container style={{padding: '0'}} maxWidth="lg"><Socials/>
                 <Grid id="lang-and-projects" container>
+                    <Grid item xs={12}>
+                        <h1 id="about-me">About me</h1>
+                    </Grid>
                     <Grid className="grid-item" item xs={12} md={6}>
                         <Languages/>
                     </Grid>

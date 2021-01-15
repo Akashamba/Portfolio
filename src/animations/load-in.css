@@ -83,38 +83,32 @@
 
 .social-icon {
     opacity: 0;
-    animation: flicker infinite, load-in ease-in 0.1s forwards;
+    animation: flicker 2s, load-in ease-in 0.3s forwards;
 }
 
 .fa-instagram {
     --color: #29cbfd;
     animation-delay: 1s;
-    animation-duration: 2s;
 }
 .fa-twitter {
     --color: #49a4fe;
     animation-delay: 2s;
-    animation-duration: 2s;
 }
 .fa-github {
     --color: #6c7bfe;
     animation-delay: 3s;
-    animation-duration: 2s;
 }
 .fa-linkedin-in {
     --color: #7471fe;
     animation-delay: 4s;
-    animation-duration: 2s;
 }
 .fa-medium-m {
     --color: #9050fe;
     animation-delay: 5s;
-    animation-duration: 2s;
 }
 .fa-envelope {
     --color: #9050fe;
     animation-delay: 6s;
-    animation-duration: 2s;
 }
 
 
