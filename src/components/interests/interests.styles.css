@@ -1,0 +1,31 @@
+.interest {
+    margin: 10px;
+}
+
+.interest a, .interest a:visited, .interest a:active {
+    color: #fff;
+    text-decoration-color: #9050fe;
+    margin: 10px 0;
+}
+
+.interest a:hover {
+    text-decoration-color: #28cbfd;
+}
+
+#artist-list {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+}
+
+#artist-list li {
+    display: inline-block;
+    width: 100%;
+}
+
+.sub-list {
+    margin-bottom: 30px;
+}
