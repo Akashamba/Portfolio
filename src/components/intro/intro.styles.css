@@ -1,5 +1,11 @@
 #intro {
-    margin-top: 100px;
+    margin-top: 40px;
+}
+
+@media(min-width: 768px) {
+    #intro {
+        margin-top: 110px;
+    }
 }
 
 #intro-container {
@@ -22,6 +28,7 @@
     margin-top: 40px;
     text-align: center;
     font-size: 1.1rem;
+    height: auto;
 }
 
 .add-spacing {
