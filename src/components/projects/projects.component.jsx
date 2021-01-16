@@ -13,8 +13,8 @@ export default function Languages() {
                 ))}
                 <li className="project">Telegram Chatbots</li>
             </ul>
-            
-            <p>Visit <a className="project-link" href="https://github.com/Akashamba">GitHub</a> for more projects</p>
+            <br/>
+            <p className="visit-for-more">Visit <a className="project-link" href="https://github.com/Akashamba">GitHub</a> for more projects</p>
         </div>
     );
 }

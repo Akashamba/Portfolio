@@ -1,6 +1,7 @@
 import React from 'react';
-import {AppBar, Toolbar, Drawer} from '@material-ui/core'
-import MenuIcon from '@material-ui/icons/Menu'
+import {AppBar, Toolbar, Drawer} from '@material-ui/core';
+import MenuIcon from '@material-ui/icons/Menu';
+import {navigation} from '../../utilities/lists.js';
 import './navbar.styles.css';
 
 export default function Navbar() {
@@ -11,20 +12,16 @@ export default function Navbar() {
                 <p className="appbar-text">Akash</p>
 
                 <div id="navigation">
-                    <a edge="end" className="nav-link" href="#home">Home</a>
-                    <a edge="end" className="nav-link" href="#languages">Skills & Languages</a>
-                    <a edge="end" className="nav-link" href="#projects">Projects</a>
-                    <a edge="end" className="nav-link" href="#interests">Interests</a>
-                    <a edge="end" className="nav-link" href="#certifications">Certifications</a>
+                    {navigation.map(location => (
+                        <a key={location.link} className="nav-link" href={location.link}>{location.name}</a>    
+                    ))}
                 </div>
 
                 <MenuIcon id="menu-icon" onClick={() => setOpen(true)}/>
                 <Drawer anchor="right" open={open} onClose={() => setOpen(false)}>
-                    <a edge="end" className="nav-link side" onClick={() => setOpen(false)} href="#home">Home</a>
-                    <a edge="end" className="nav-link side" onClick={() => setOpen(false)} href="#languages">Skills & Languages</a>
-                    <a edge="end" className="nav-link side" onClick={() => setOpen(false)} href="#projects">Projects</a>
-                    <a edge="end" className="nav-link side" onClick={() => setOpen(false)} href="#interests">Interests</a>
-                    <a edge="end" className="nav-link side" onClick={() => setOpen(false)} href="#certifications">Certifications</a>
+                    {navigation.map(location => (
+                        <a key={location.link} className="nav-link side" onClick={() => setOpen(false)} href={location.link}>{location.name}</a>    
+                    ))}
                 </Drawer>
             </Toolbar>
         </AppBar>

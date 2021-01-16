@@ -14,6 +14,8 @@ export default function Languages() {
                     </ul>
                 </li>
                 <br/>
+                <li className="main-item"><span style={{fontWeight: 'bold'}}>Git and GitHub</span></li>
+                <br/>
                 <li className="main-item"><span style={{fontWeight: 'bold'}}>Progressive Web Apps (PWA)</span></li>
                 <br/>
                 <li className="main-item">

@@ -1,3 +1,12 @@
+export const navigation = [
+    {name: "Home", link: "#home"},
+    {name: "Skills & Languages", link: "#languages"},
+    {name: "Projects", link: "#projects"},
+    {name: "Interests", link: "#interests"},
+    {name: "Certifications", link: "#certifications"},
+    {name: "Contact Info", link: "#footer"},
+]
+
 export const socials = [
     {name: "fab fa-instagram", link: "https://www.instagram.com/_akashamba_/"},
     {name: "fab fa-twitter", link: "https://twitter.com/akashamba238"},

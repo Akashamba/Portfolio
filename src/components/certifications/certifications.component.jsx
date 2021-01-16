@@ -42,7 +42,7 @@ export default function Certifications() {
                     <a className="certification-link" href="https://assets.steptest.in/certificates/STEP-592605440935006485-20200129095622.pdf">View Certificate</a>
                 </li>*/}   
 
-                <p>Visit <a href="https://www.linkedin.com/in/akash-ambashankar/" className="more-certification-link">LinkedIn</a> for more certifications</p>
+                <p className="visit-for-more">Visit <a href="https://www.linkedin.com/in/akash-ambashankar/" className="more-certification-link">LinkedIn</a> for more certifications</p>
             </ul>
         </div>
     )

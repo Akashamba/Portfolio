@@ -19,16 +19,16 @@ export default function Homepage() {
                     <Grid item xs={12}>
                         <h1 id="about-me">About me</h1>
                     </Grid>
-                    <Grid  id="languages" className="grid-item" item xs={12} md={6}>
+                    <Grid  id="languages" className="grid-item" item xs={12} sm={6}>
                         <Languages/>
                     </Grid>
-                    <Grid  id="projects" className="grid-item" item xs={12} md={6}>
+                    <Grid  id="projects" className="grid-item" item xs={12} sm={6}>
                         <Projects/>
                     </Grid>
-                    <Grid  id="interests" className="grid-item" item xs={12} md={6}>
+                    <Grid  id="interests" className="grid-item" item xs={12} sm={6}>
                         <Interests/>
                     </Grid>
-                    <Grid  id="certifications" className="grid-item" item xs={12} md={6}>
+                    <Grid  id="certifications" className="grid-item" item xs={12} sm={6}>
                         <Certifications/>
                     </Grid>
                 </Grid>
