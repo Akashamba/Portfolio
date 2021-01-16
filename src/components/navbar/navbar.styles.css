@@ -1,0 +1,46 @@
+#navigation {
+    margin-left: auto;
+    display: none;
+}
+
+#menu-icon {
+    margin-left: auto;
+    display: block;
+}
+
+.nav-link, .nav-link:visited, .nav-link:active {
+    color: #fff;
+    text-decoration-color: #28cbfd;
+    padding: 0 10px;
+}
+
+.nav-link:hover {
+    text-decoration-color: #9050fe;
+}
+
+.side {
+    padding: 10px;
+    text-decoration: none;
+}
+
+.MuiDrawer-paperAnchorRight {
+    background-color: #000!important;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+@media(min-width: 768px) {
+    #navigation {
+        display: block;
+    }
+
+    #menu-icon {
+        display: none;
+    }
+}
+
+:target::before {
+    content: " ghjk";
+    margin-top: 15px;
+    visibility: hidden; 
+}

@@ -6,7 +6,7 @@ export default function Footer() {
     return(
         <div id="footer">
             <p>
-                <a href="#top" className="footer-link">About</a> 
+                <a href="#home" className="footer-link">About</a> 
                 &nbsp; | &nbsp; 
                 <a href={footer.resume} className="project-link">Resume</a> 
                 &nbsp; | &nbsp;

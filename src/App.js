@@ -1,6 +1,6 @@
 import React from 'react';
 import Homepage from './pages/homepage/homepage.component.jsx';
-import {AppBar, Toolbar} from '@material-ui/core'
+import Navbar from './components/navbar/navbar.component.jsx';
 import {Switch, Route, Redirect} from 'react-router-dom';
 import './App.css';
 import './animations/load-in.css';
@@ -9,8 +9,8 @@ function App() {
     
     return (
         <div className="App">
-            <div id="top"></div>
-            <AppBar position="fixed"><Toolbar><p className="appbar-text">Akash</p></Toolbar></AppBar>
+            <div id="home"></div>
+            <Navbar/>
             <Switch>
                 <Route exact path='/' component={Homepage}/>
                 <Route><Redirect to='/'/></Route>
