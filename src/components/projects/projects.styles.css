@@ -1,56 +1,13 @@
-.project-link, .project-link:visited, .project-link:active {
+#projects {
+    background-image: linear-gradient(to bottom, #30cfd0 0%, #330867 100%);
+    background-color: #64b3f4;
+    text-align: center;
+}
+
+.item-link, .item-link:visited {
     color: #fff;
-    text-decoration-color: #9050fe;
 }
 
-.project-link:hover {
-    text-decoration-color: #28cbfd;
-}
-
-.project {
-    margin: 10px;
-    font-weight: bold;
-}
-
-.content li {
-    font-size: 1.1rem;
-}
-
-ul {
-    list-style: none;
-    padding-inline-start: 20px;
-}
-
-@media(min-width: 768px) {
-    ul {
-        padding-inline-start: 30px;
-    }
-}
-
-li {
-    margin-left: 10px;
-}
-
-ul li::before {
-    content: "\25CF";  
-    color: #8b56fe; 
-    font-weight: bold; 
-    display: inline-block; 
-    width: 1em; 
-    margin-left: -1em; 
-}
-
-.main-list > li::before {
-    color: #28cbfd;
-}
-
-.sub-title {
-    text-align: center;
-    font-weight: 800;
-    text-decoration: underline;
-}
-
-.visit-for-more {
-    text-align: center;
-    font-style: italic;
+#projects .item-link {
+    text-decoration-color: #64b3f4;
 }

@@ -1,0 +1,17 @@
+#languages {
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+    background-color: #4481eb;
+    text-align: center;
+}
+
+.item-heading {
+    font-size: 2.4rem;
+}
+
+.item-content {
+    font-size: 1.6rem;
+}
+
+.item-container {
+    padding: 0 30px;
+}

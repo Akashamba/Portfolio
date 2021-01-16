@@ -6,7 +6,7 @@ import Projects from '../../components/projects/projects.component';
 import Footer from '../../components/footer/footer.component';
 import Certifications from '../../components/certifications/certifications.component';
 import Interests from '../../components/interests/interests.component';
-import {Grid, Container} from '@material-ui/core';
+import {Container} from '@material-ui/core';
 import './homepage.styles.css';
 
 export default function Homepage() {
@@ -14,24 +14,13 @@ export default function Homepage() {
         <div>
             <Intro/>
             <br/><br/>
-            <Container style={{padding: '0'}} maxWidth="lg"><Socials/>
-                <Grid id="lang-and-projects" container>
-                    <Grid item xs={12}>
-                        <h1 id="about-me">About me</h1>
-                    </Grid>
-                    <Grid  id="languages" className="grid-item" item xs={12} sm={6}>
-                        <Languages/>
-                    </Grid>
-                    <Grid  id="projects" className="grid-item" item xs={12} sm={6}>
-                        <Projects/>
-                    </Grid>
-                    <Grid  id="interests" className="grid-item" item xs={12} sm={6}>
-                        <Interests/>
-                    </Grid>
-                    <Grid  id="certifications" className="grid-item" item xs={12} sm={6}>
-                        <Certifications/>
-                    </Grid>
-                </Grid>
+            <Container className="container" style={{padding: '0'}} maxWidth="lg">
+                <Socials/> 
+                                    
+                <Languages/>                    
+                <Projects/>                    
+                <Interests/>                    
+                <Certifications/>                                    
             </Container>
             <Footer/>
         </div>

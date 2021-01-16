@@ -20,7 +20,6 @@ export const socials = [
 export const projects = [
     {name: 'Coronavirus Tracker', link: 'https://coronavirus-tracker-live.netlify.app/'},
     {name: 'Dictionary App', link: 'https://simple-dictionary.netlify.app'},
-    {name: 'Mobile Calculator(PWA)', link: 'https://mobile-calculator.netlify.app/'},
     {name: 'Todo Web App', link: 'https://todoxapp.netlify.app/'},
     {name: 'Stan Lee Tribute Page', link: 'https://stanlee-tribute.netlify.app'},
     {name: 'Health Me', link: 'https://healthme.netlify.app/'},

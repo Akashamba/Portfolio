@@ -1,4 +1,5 @@
 body {
+  color: #fff;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -8,7 +9,8 @@ body {
 
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #000;
-  background-image: linear-gradient(to bottom right, #434343, black);
+  /* background-image: linear-gradient(to bottom right, #434343, black); */
+  background-image: url('./assets/images/background.jpg');
   background-attachment: fixed;
 }
 
@@ -18,7 +20,7 @@ code {
 }
 
 .content {
-    background-color: #404242;
+    background-color: #28a8fd;
     color: #fff;
     padding: 15px;
     border-radius: 10px;
