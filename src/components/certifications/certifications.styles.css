@@ -1,3 +1,9 @@
+#certifications {
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    background-color: #b721ff;
+    text-align: center;
+}
+
 .certification-link, .certification-link:visited, .certification-link:active {
     color: #fff;
     text-decoration-color: #9050fe;

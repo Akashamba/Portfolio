@@ -1,49 +1,60 @@
-import React from 'react';
+import React,{useEffect} from 'react';
+import {Grid, Container} from '@material-ui/core';
+import Aos from 'aos';
+import "aos/dist/aos.css";
 import './certifications.styles.css'
 
 export default function Certifications() {
+    useEffect(() => {
+        Aos.init({duration: 1000})
+    }, []);
     return (
-        <div className="content">
-            <h2 className="sub-title">Certifications & Recognitions</h2>
-            <ul className="main-list">
-                <li className="certification">
-                    <span style={{fontWeight: 'bold'}}>Complete React Developer in 2021 (w/ Redux, Hooks, GraphQL)</span>
-                    <span className="university"><a className="certification-link" href="https://www.udemy.com/course/complete-react-developer-zero-to-mastery/">Udemy</a></span>
-                    <span>In Progress</span>
-                </li>
-                <br/>
-                <li className="certification">
-                    <span style={{fontWeight: 'bold'}}>Web Design for Everybody Specialization</span>
-                    <span className="university">University of Michigan</span>
-                    <a className="certification-link" href="https://www.coursera.org/account/accomplishments/specialization/certificate/CQ6DZNM49XE4">View Certificate</a>
-                </li>
-                <br/>
-                <li className="certification">
-                    <span style={{fontWeight: 'bold'}}>Object-Oriented Design</span>
-                    <span className="university">University of Alberta</span>
-                    <a className="certification-link" href="https://coursera.org/share/87e0b6110a5736bde9eeab0d216cbe8a">View Certificate</a>
-                </li>
-                <br/>
-                <li className="certification">
-                    <span style={{fontWeight: 'bold'}}>Motion Microscope to detect Covid-19</span>
-                    <span style={{display: 'block'}}>Research Paper Presentation Contest</span>
-                    <span style={{display: 'block'}}>Runners Up (Team of Three)</span>
-                </li>
-                <br/>
-                {/*<li className="certification">
-                    <span style={{fontWeight: 'bold'}}>Problem Solving (Basic) Certificate</span>
-                    <span className="university">HackerRank</span>
-                    <a className="certification-link" href="https://www.hackerrank.com/certificates/908bb94902e0">View Certificate</a>
-                </li>
-                <br/>
-                <li className="certification">
-                    <span style={{fontWeight: 'bold'}}>Step Certification</span>
-                    <span className="university">STEP from The Hindu Group</span>
-                    <a className="certification-link" href="https://assets.steptest.in/certificates/STEP-592605440935006485-20200129095622.pdf">View Certificate</a>
-                </li>*/}   
+        <div id="certifications" className="section">
+            <h2 className="sub-title long" data-aos="fade-up">Certifications and Recognitions</h2>
+            <Container>
+                <Grid container>
+                    <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
+                        <h3 className="item-heading">Web Development</h3>
+                        <p className="item-content">Strong Foundation in <b>HTML, CSS, JS</b></p>
+                        <p className="item-content">Practicing <b>React</b> through various projects</p>
+                        <p className="item-content">Learning basics of <b>Node&nbsp;JS</b></p>
+                    </Grid>
 
-                <p className="visit-for-more">Visit <a href="https://www.linkedin.com/in/akash-ambashankar/" className="more-certification-link">LinkedIn</a> for more certifications</p>
-            </ul>
+                    <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
+                        <h3 className="item-heading">Git and GitHub</h3>
+                        <p className="item-content"><b>commit, push, pull...</b></p>
+                        <p className="item-content">Collaborative Projects</p>
+                    </Grid>
+
+                    <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
+                        <h3 className="item-heading">Progressive&nbsp;Web Apps (PWAs)</h3>
+                        <p className="item-content">Able to design PWAs with React</p>
+                        <p className="item-content"><b>powerful, effective, fast</b></p>
+                        <p className="item-content"><b>cross-platform</b> apps on the web</p>
+                    </Grid>
+
+                    <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
+                        <h3 className="item-heading">Python Programming</h3>
+                        <p className="item-content">Knowledge of Python and Python modules</p>
+                        <p className="item-content">including <b>Pandas, Flask</b></p>
+                    </Grid>
+
+                    <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
+                        <h3 className="item-heading">Linux Terminal Commands</h3>
+                        <p className="item-content">Operating a Linux Machine through the terminal</p>
+                        <p className="item-content">An essential for <b>Security&nbsp;Engineering</b></p>
+                        <p className="item-content"></p>
+                    </Grid>
+
+                    <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
+                        <h3 className="item-heading">Communication</h3>
+                        <p className="item-content">Well Spoken and Well Mannered</p>
+                        <p className="item-content"><b>Clarity</b> in <b>words</b> and <b>action</b></p>
+                        <p className="item-content">Important tool for a Developer</p>
+
+                    </Grid>
+                </Grid>
+            </Container>
         </div>
-    )
+    );
 }

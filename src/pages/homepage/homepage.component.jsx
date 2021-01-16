@@ -11,11 +11,13 @@ import './homepage.styles.css';
 
 export default function Homepage() {
     return (
-        <div>
-            <Intro/>
-            <br/><br/>
-            <Container className="container" style={{padding: '0'}} maxWidth="lg">
+        <div id="homepage">
+            <div id="intro">
+                <Intro/>
+                <br/><br/>
                 <Socials/> 
+            </div>
+            <Container className="container" style={{padding: '0'}} maxWidth="lg">
                                     
                 <Languages/>                    
                 <Projects/>                    

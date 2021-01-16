@@ -8,3 +8,7 @@
     font-size: 3rem;
     margin: 20px 0;
 }
+
+.MuiGrid-grid-xs-12 {
+    margin: 10px 0!important;
+}
