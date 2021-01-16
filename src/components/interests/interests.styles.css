@@ -2,6 +2,10 @@
     margin: 10px;
 }
 
+.interest-bold {
+    font-weight: bold;
+}
+
 .interest a, .interest a:visited, .interest a:active {
     color: #fff;
     text-decoration-color: #9050fe;
@@ -12,7 +16,7 @@
     text-decoration-color: #28cbfd;
 }
 
-#artist-list {
+.split-list {
     -moz-column-count: 2;
     -moz-column-gap: 0px;
     -webkit-column-count: 2;
@@ -22,14 +26,14 @@
 }
 
 @media(min-width: 768px) {
-    #artist-list {
+    .split-list {
         -moz-column-gap: 10px;
         -webkit-column-gap: 10px;
         column-gap: 10px;
     }
 }
 
-#artist-list li {
+.split-list li {
     display: inline-block;
     width: 100%;
 }
