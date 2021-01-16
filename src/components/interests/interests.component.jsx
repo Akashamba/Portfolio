@@ -14,7 +14,7 @@ export default function Interests() {
                     Designing
                     <ul className="sub-list">
                         <li className="interest">Frontend Web Dev.</li>
-                        <li className="interest">Video Editing / <a href="https://www.youtube.com/watch?v=-I4gTr_keaE&t=14s">Montages</a></li>
+                        <li className="interest">Video Editing / <a href="https://www.youtube.com/watch?v=CpDJye53FDI&t=1s">Montages</a></li>
                         <li className="interest"><a href="https://www.instagram.com/serendipitous59/">Photography</a></li>
                     </ul>
                 </li>

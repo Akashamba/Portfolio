@@ -8,16 +8,16 @@ export default function Footer() {
             <p>
                 <a href="#home" className="footer-link">About</a> 
                 &nbsp; | &nbsp; 
-                <a href={footer.resume} className="project-link">Resume</a> 
+                <a href={footer.resume} className="footer-link">Resume</a> 
                 &nbsp; | &nbsp;
                 <a href={footer.phone} className="footer-link">Phone</a> 
                 &nbsp; | &nbsp; 
-                <a href={footer.email} className="project-link">Email</a>                 
+                <a href={footer.email} className="footer-link">Email</a>                 
                 &nbsp; | &nbsp; 
-                <a href={footer.feedback} className="project-link">Feedback</a>                                 
+                <a href={footer.feedback} className="footer-link">Feedback</a>                                 
             </p>
             <br/>
-            <p> &copy; Akash Ambashankar</p>
+            <p> &copy; <a href="/" className="footer-link">Akash Ambashankar</a></p>
             
             <p>
                 {socials.filter(icon => icon.name !== 'fas fa-envelope').map(icon => (
