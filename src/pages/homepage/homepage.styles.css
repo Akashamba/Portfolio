@@ -1,5 +1,6 @@
 .section {
     padding: 50px 10px 90px 10px;
+    overflow-x: hidden;
 }
 
 .sub-title {
