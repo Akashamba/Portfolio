@@ -3,7 +3,7 @@ export const navigation = [
     {name: "Skills & Languages", link: "#languages"},
     {name: "Projects", link: "#projects"},
     {name: "Interests", link: "#interests"},
-    {name: "Resume", link: "https://drive.google.com/file/d/1J5WNIwbQi8iZHWczaliOyNtQQcNjoK0l/view?usp=sharing"},
+    {name: "Resume", link: "https://drive.google.com/file/d/1XJBgbOUDEuJOl1dCwBOIwJDjydOt0Xfg/view?usp=sharing"},
     {name: "Certifications", link: "#certifications"},
     {name: "Contact Info", link: "#footer"},
 ]
@@ -27,7 +27,7 @@ export const projects = [
 ];
 
 export const footer = {
-    resume: "https://drive.google.com/file/d/1J5WNIwbQi8iZHWczaliOyNtQQcNjoK0l/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1XJBgbOUDEuJOl1dCwBOIwJDjydOt0Xfg/view?usp=sharing",
     phone: "tel:7397705666",
     email: "mailto:akashambashankar@gmail.com",
     feedback: "http://akashamba-feedback.netlify.app/portfolio",

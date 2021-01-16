@@ -41,6 +41,10 @@
     font-size: 1.65rem;
 }
 
+.intro-sub-text {
+    margin: 5px;
+}
+
 @media(min-width: 768px) {
     #intro-content {
         width: 100%;
