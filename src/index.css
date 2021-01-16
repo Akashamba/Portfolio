@@ -12,6 +12,7 @@ body {
   /* background-image: linear-gradient(to bottom right, #434343, black); */
   background-image: url('./assets/images/background.jpg');
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 code {
