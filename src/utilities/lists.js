@@ -3,7 +3,6 @@ export const navigation = [
     {name: "Skills & Languages", link: "#languages"},
     {name: "Projects", link: "#projects"},
     {name: "Interests", link: "#interests"},
-    {name: "Resume", link: "https://drive.google.com/file/d/1XJBgbOUDEuJOl1dCwBOIwJDjydOt0Xfg/view?usp=sharing"},
     {name: "Certifications", link: "#certifications"},
     {name: "Contact Info", link: "#footer"},
 ]

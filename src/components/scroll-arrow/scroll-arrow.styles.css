@@ -1,0 +1,60 @@
+@-webkit-keyframes animate-arrow {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+@-moz-keyframes animate-arrow {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+@-o-keyframes animate-arrow {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+@keyframes animate-arrow {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+#scroll-arrow-container {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.fa-angle-up {
+    transform: translateY(0px);
+    font-size: 1.5rem;
+    color: #fff;
+    animation: animate-arrow 1s infinite;
+}
+
+#arrow:hover {
+    color: rgba(4,56,99, 0.5);
+}

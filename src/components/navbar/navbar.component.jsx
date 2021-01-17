@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import {AppBar, Toolbar, Drawer} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import {navigation} from '../../utilities/lists.js';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './navbar.styles.css';
 
 export default function Navbar() {
@@ -21,8 +22,9 @@ export default function Navbar() {
 
                 <div id="navigation">
                     {navigation.map(location => (
-                        <a key={location.link} className="nav-link" href={location.link}>{location.name}</a>    
+                        <AnchorLink key={location.link} className="nav-link" href={location.link}>{location.name}</AnchorLink>    
                     ))}
+                    <a className="nav-link" href="https://drive.google.com/file/d/1XJBgbOUDEuJOl1dCwBOIwJDjydOt0Xfg/view?usp=sharing">Resume</a>
                 </div>
 
                 <MenuIcon id="menu-icon" onClick={() => setOpen(true)}/>

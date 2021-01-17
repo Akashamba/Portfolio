@@ -10,7 +10,7 @@ export default function Languages() {
     }, []);
     return (
         <div id="languages" className="section">
-            <h2 className="sub-title long">Skills & Languages</h2>
+            <h2 className="sub-title long" data-aos="fade-up">Skills & Languages</h2>
             <Container>
                 <Grid container>
                     <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
