@@ -24,22 +24,22 @@ export default function Certifications() {
                         <hr/>
                     </Grid>
 
-                    <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
-                        <h3 className="item-heading">Web Design for Everybody Specialization</h3>
-                        <p className="item-content">From the University of Michigan</p>
+                    <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
+                        <h3 className="item-heading">Object-Oriented Design</h3>
+                        <p className="item-content">From the University of Alberta</p>
                         <p className="item-content">on Coursera</p>
-                        <p className="item-content"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/CQ6DZNM49XE4" className="item-link">View Certificate</a></p>
+                        <p className="item-content"><a href="https://coursera.org/share/87e0b6110a5736bde9eeab0d216cbe8a" className="item-link">View Certificate</a></p>
                     </Grid>
 
                     <Grid item xs={12} className="mobile-hr" data-aos="fade-left">
                         <hr/>
                     </Grid>
 
-                    <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
-                        <h3 className="item-heading">Object-Oriented Design</h3>
-                        <p className="item-content">From the University of Alberta</p>
+                    <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
+                        <h3 className="item-heading">Web Design for Everybody Specialization</h3>
+                        <p className="item-content">From the University of Michigan</p>
                         <p className="item-content">on Coursera</p>
-                        <p className="item-content"><a href="https://coursera.org/share/87e0b6110a5736bde9eeab0d216cbe8a" className="item-link">View Certificate</a></p>
+                        <p className="item-content"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/CQ6DZNM49XE4" className="item-link">View Certificate</a></p>
                     </Grid>
 
                     <Grid item xs={12} className="mobile-hr" data-aos="fade-right">
@@ -49,6 +49,7 @@ export default function Certifications() {
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
                         <h3 className="item-heading">Research Paper Presentation Contest</h3>
                         <p className="item-content">Motion Microscope to detect Covid-19</p>
+                        <p className="item-content">Team of three</p>
                         <p className="item-content">Runners Up</p>
                     </Grid>
 

@@ -3,7 +3,7 @@ import {footer, socials} from '../../utilities/lists.js';
 import './footer.styles.css'
 
 export default function Footer() {
-    const url = "https://akashamba.netlify.app";
+    const url = "akashamba.netlify.app";
     return(
         <div id="footer">
             <p>

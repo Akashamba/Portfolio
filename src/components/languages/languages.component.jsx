@@ -68,10 +68,9 @@ export default function Languages() {
 
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
                         <h3 className="item-heading">Communication</h3>
-                        <p className="item-content">Well Spoken and<br/>Well Mannered</p>
-                        <h3 className="item-heading">Clarity</h3>
-                        <p className="item-content">in <b>words</b><br/>and <b>action</b></p>
-                        <p className="item-content">Important tool for a Developer</p>
+                        <p className="item-content">Well Spoken & Well&nbsp;Mannered</p>
+                        <p className="item-content"></p>
+                        <p className="item-content"><span style={{fontSize: '2rem', fontWeight: 'bold'}}>Clarity</span><br/>in <b>Words</b> & <b>Action</b></p>
                     </Grid>
                 </Grid>
           </Container>
