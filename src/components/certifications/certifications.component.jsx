@@ -24,7 +24,7 @@ export default function Certifications() {
                         <hr/>
                     </Grid>
 
-                    <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
+                    <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
                         <h3 className="item-heading">Object-Oriented Design</h3>
                         <p className="item-content">From the University of Alberta</p>
                         <p className="item-content">on Coursera</p>
@@ -35,7 +35,7 @@ export default function Certifications() {
                         <hr/>
                     </Grid>
 
-                    <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
+                    <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
                         <h3 className="item-heading">Web Design for Everybody Specialization</h3>
                         <p className="item-content">From the University of Michigan</p>
                         <p className="item-content">on Coursera</p>
