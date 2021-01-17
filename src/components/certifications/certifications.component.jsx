@@ -51,7 +51,7 @@ export default function Certifications() {
                         <h3 className="item-heading">STEP Certification</h3>
                         <p className="item-content">from The Hindu Group</p>
                         <p className="item-content">Listening, Speaking, Reading and Writing skills in English</p>
-                        <p className="item-content"><a href="https://assets.steptest.in/certificates/STEP-592605440935006485-20200129095622.pdf" className="item-link" className="item-link">View Certificate</a></p>
+                        <p className="item-content"><a href="https://assets.steptest.in/certificates/STEP-592605440935006485-20200129095622.pdf" className="item-link">View Certificate</a></p>
                     </Grid>
 
                     <Grid className="item-container" data-aos="fade-top" item xs={12}>
