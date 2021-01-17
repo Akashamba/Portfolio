@@ -26,6 +26,7 @@ export const projects = [
 ];
 
 export const footer = {
+    home: "#home",
     resume: "https://drive.google.com/file/d/1XJBgbOUDEuJOl1dCwBOIwJDjydOt0Xfg/view?usp=sharing",
     phone: "tel:7397705666",
     email: "mailto:akashambashankar@gmail.com",

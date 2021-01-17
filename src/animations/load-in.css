@@ -40,11 +40,11 @@
 }
 
 #profile-picture-closed {
-    animation: load-in ease-in 0.8s;
+    animation: load-in ease-in 1s;
 }
 
 .content {
-    animation: load-in ease-in 1s;
+    animation: load-in ease-in 1.2s;
 }
 
 
