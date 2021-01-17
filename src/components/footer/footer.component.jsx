@@ -3,6 +3,7 @@ import {footer, socials} from '../../utilities/lists.js';
 import './footer.styles.css'
 
 export default function Footer() {
+    const url = "https://akashamba.netlify.app";
     return(
         <div id="footer">
             <p>
@@ -17,6 +18,8 @@ export default function Footer() {
                 <a href={footer.feedback} className="footer-link">Feedback</a>                                 
             </p>
             <br/>
+            <a href="/" className="footer-link">{url}</a>
+            <br/><br/>
             <p> &copy; <a href="/" className="footer-link">Akash Ambashankar</a></p>
             
             <p>

@@ -14,7 +14,6 @@
     margin: 10px 0!important;
 }
 
-#homepage {
-    /* background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); */
-    background-image: url('../../assets//images/background.jpg');
+#intro-and-social {
+    background-image: linear-gradient(to top, #6f86d6 0%, #043863 100%);
 }

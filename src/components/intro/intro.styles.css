@@ -1,10 +1,12 @@
-#intro {
-    margin-top: 40px;
+#intro-container {
+    padding: 20px 24px;
+    padding-top: 90px;
 }
 
-#intro-container {
-    /* background-image: url('../../assets/images/Official.jpg'); */
-    padding: 20px 24px;
+@media(min-width: 768px) {
+    #intro-container {
+        padding-top: 120px;
+    }
 }
 
 #profile-picture-closed {
