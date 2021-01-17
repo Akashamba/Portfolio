@@ -19,7 +19,7 @@ code {
 }
 
 .content {
-    background-color: #28a8fd;
+    background-color: rgba(40,168,253, 0.5);
     color: #fff;
     padding: 15px;
     border-radius: 10px;

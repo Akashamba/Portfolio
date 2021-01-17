@@ -13,3 +13,8 @@
 .MuiGrid-grid-xs-12 {
     margin: 10px 0!important;
 }
+
+#homepage {
+    /* background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); */
+    background-image: url('../../assets//images/background.jpg');
+}

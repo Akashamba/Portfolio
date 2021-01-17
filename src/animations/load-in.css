@@ -48,61 +48,29 @@
 }
 
 
-@-webkit-keyframes flicker {
-    0% {
-        color: #29cbfd;
-    }
-    100% {
-        color: #fff;
-    }
-}
-@-moz-keyframes flicker {
-    0% {
-        color: #29cbfd;
-    }
-    100% {
-        color: #fff;
-    }
-}
-@-o-keyframes flicker {
-    0% {
-        color: #29cbfd;
-    }
-    100% {
-        color: #fff;
-    }
-}
-@keyframes flicker {
-    50% {
-        color: #29cbfd;
-    }
-    100% {
-        color: #fff;
-    }
-}
 
 .social-icon {
     opacity: 0;
-    animation: flicker 2s, load-in ease-in 0.3s forwards;
+    animation: load-in ease-in 0.3s forwards;
 }
 
 .fa-instagram {
     animation-delay: 1s;
 }
 .fa-twitter {
-    animation-delay: 1.5s;
+    animation-delay: 1.3s;
 }
 .fa-github {
-    animation-delay: 2s;
+    animation-delay: 1.6s;
 }
 .fa-linkedin-in {
-    animation-delay: 2.5s;
+    animation-delay: 1.9s;
 }
 .fa-medium-m {
-    animation-delay: 3s;
+    animation-delay: 2.2s;
 }
 .fa-envelope {
-    animation-delay: 3.5s;
+    animation-delay: 2.5s;
 }
 
 

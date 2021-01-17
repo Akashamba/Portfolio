@@ -2,12 +2,6 @@
     margin-top: 40px;
 }
 
-@media(min-width: 768px) {
-    #intro {
-        margin-top: 110px;
-    }
-}
-
 #intro-container {
     /* background-image: url('../../assets/images/Official.jpg'); */
     padding: 20px 24px;
@@ -26,7 +20,6 @@
 .intro-content {
     width: 80%;
     margin: 0 auto;
-    margin-top: 40px;
     text-align: center;
     font-size: 1.1rem;
     height: auto;

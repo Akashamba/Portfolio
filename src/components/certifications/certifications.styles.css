@@ -4,29 +4,6 @@
     text-align: center;
 }
 
-.certification-link, .certification-link:visited, .certification-link:active {
-    color: #fff;
-    text-decoration-color: #9050fe;
-    display: block;
-    margin: 10px 0;
-}
-
-.certification-link:hover {
-    text-decoration-color: #28cbfd;
-}
-
-.university {
-    display: block;
-    font-weight: bold;
-    margin: 5px 0;
-}
-
-.more-certification-link {
-    color: #fff;
-    text-decoration-color: #9050fe;
-    margin: 10px 0;
-}
-
-.more-certification-link:hover {
-    text-decoration-color: #28cbfd;
+#certifications .item-link {
+    text-decoration-color: #b721ff;
 }

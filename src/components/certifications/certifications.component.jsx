@@ -14,45 +14,50 @@ export default function Certifications() {
             <Container>
                 <Grid container>
                     <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
-                        <h3 className="item-heading">Web Development</h3>
-                        <p className="item-content">Strong Foundation in <b>HTML, CSS, JS</b></p>
-                        <p className="item-content">Practicing <b>React</b> through various projects</p>
-                        <p className="item-content">Learning basics of <b>Node&nbsp;JS</b></p>
+                        <h3 className="item-heading">Complete React Developer in 2021</h3>
+                        <p className="item-content">w/ Redux, Hooks, GraphQL</p>
+                        <p className="item-content"><a href="https://www.udemy.com/course/complete-react-developer-zero-to-mastery/" className="item-link">On Udemy</a></p>
+                        <p className="item-content">In Progress</p>
                     </Grid>
 
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
-                        <h3 className="item-heading">Git and GitHub</h3>
-                        <p className="item-content"><b>commit, push, pull...</b></p>
-                        <p className="item-content">Collaborative Projects</p>
+                        <h3 className="item-heading">Web Design for Everybody Specialization</h3>
+                        <p className="item-content">From the University of Michigan</p>
+                        <p className="item-content">on Coursera</p>
+                        <p className="item-content"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/CQ6DZNM49XE4" className="item-link">View Certificate</a></p>
                     </Grid>
 
                     <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
-                        <h3 className="item-heading">Progressive&nbsp;Web Apps (PWAs)</h3>
-                        <p className="item-content">Able to design PWAs with React</p>
-                        <p className="item-content"><b>powerful, effective, fast</b></p>
-                        <p className="item-content"><b>cross-platform</b> apps on the web</p>
+                        <h3 className="item-heading">Object-Oriented Design</h3>
+                        <p className="item-content">From the University of Alberta</p>
+                        <p className="item-content">on Coursera</p>
+                        <p className="item-content"><a href="https://coursera.org/share/87e0b6110a5736bde9eeab0d216cbe8a" className="item-link">View Certificate</a></p>
                     </Grid>
 
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
-                        <h3 className="item-heading">Python Programming</h3>
-                        <p className="item-content">Knowledge of Python and Python modules</p>
-                        <p className="item-content">including <b>Pandas, Flask</b></p>
+                        <h3 className="item-heading">Research Paper Presentation Contest</h3>
+                        <p className="item-content">Motion Microscope to detect Covid-19</p>
+                        <p className="item-content">Runners Up</p>
                     </Grid>
 
                     <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
-                        <h3 className="item-heading">Linux Terminal Commands</h3>
-                        <p className="item-content">Operating a Linux Machine through the terminal</p>
-                        <p className="item-content">An essential for <b>Security&nbsp;Engineering</b></p>
-                        <p className="item-content"></p>
+                        <h3 className="item-heading">BEC Vantage Certification</h3>
+                        <p className="item-content">From Cambridge English</p>
+                        <p className="item-content">Certified in Business English Communication</p>
+                        {/*<p className="item-content"><a href="https://coursera.org/share/87e0b6110a5736bde9eeab0d216cbe8a" className="item-link">View Certificate</a></p>*/}
                     </Grid>
 
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
-                        <h3 className="item-heading">Communication</h3>
-                        <p className="item-content">Well Spoken and Well Mannered</p>
-                        <p className="item-content"><b>Clarity</b> in <b>words</b> and <b>action</b></p>
-                        <p className="item-content">Important tool for a Developer</p>
-
+                        <h3 className="item-heading">STEP Certification</h3>
+                        <p className="item-content">from The Hindu Group</p>
+                        <p className="item-content">Listening, Speaking, Reading and Writing skills in English</p>
+                        <p className="item-content"><a href="https://assets.steptest.in/certificates/STEP-592605440935006485-20200129095622.pdf" className="item-link" className="item-link">View Certificate</a></p>
                     </Grid>
+
+                    <Grid className="item-container" data-aos="fade-top" item xs={12}>
+                        <p className="item-content">Visit <a href="https://www.linkedin.com/in/akash-ambashankar/" className="item-link">LinkedIn</a> for more certifications</p>
+                    </Grid>
+
                 </Grid>
             </Container>
         </div>
