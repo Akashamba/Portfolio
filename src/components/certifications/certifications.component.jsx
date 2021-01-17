@@ -80,7 +80,7 @@ export default function Certifications() {
                     </Grid>
 
                     <Grid className="item-container" data-aos="fade-top" item xs={12}>
-                        <p className="item-content">Inviting you to connect with me on my<a href="https://www.linkedin.com/in/akash-ambashankar/" className="item-link">LinkedIn</a></p>
+                        <p className="item-content">Inviting you to connect with me on my <a href="https://www.linkedin.com/in/akash-ambashankar/" className="item-link">LinkedIn</a></p>
                     </Grid>
                 </Grid>
             </Container>
