@@ -2,6 +2,9 @@ import React, {useEffect} from 'react';
 import {projects} from '../../utilities/lists.js';
 import {Grid, Container} from '@material-ui/core';
 import nokia from '../../assets/images/nokia.png';
+import tracker from '../../assets/images/logo.png';
+import telegram from '../../assets/images/telegram.webp';
+import github from '../../assets/images/github.webp';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import './projects.styles.css';
@@ -29,6 +32,7 @@ export default function Languages() {
 
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
                         <h3 className="item-heading">Coronavirus Tracker</h3>
+                        <img src={tracker} alt="coronavirus tracker logo" className="item-image"/>
                         <p className="item-content">Tracks the spread of Covid-19 worldwide</p>
                         <p className="item-content">Clear Visualization of Data</p>
                         <p className="item-content"><a className="item-link" href={projects[0].link}>{projects[0].name}</a></p>
@@ -63,12 +67,15 @@ export default function Languages() {
                     <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
                         <h3 className="item-heading">Telegram Chatbots</h3>
                         <p className="item-content">Chatbots built in Python to perform various functions</p>
+                        <img src={telegram} alt="telegram logo" className="item-large-image"/>
                         <p className="item-content"><u>WordBot:</u> Meanings, synonyms, etc for words</p>
                         <p className="item-content"><u>TV Bot:</u> Movie and TV show details</p>
                     </Grid>
 
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
-                        <p className="item-content">Visit <a className="item-link" href="https://github.com/Akashamba">GitHub</a> for more projects</p>
+                    <h3 className="item-heading">Visit <a className="item-link" href="https://github.com/Akashamba">GitHub</a> for more projects</h3>
+                    <div style={{height: '20%'}}></div>
+                        <img src={github} style={{backgroundColor: "#fff", borderRadius: "50%"}} alt="github logo" className="item-large-image"/>
                     </Grid>
                 </Grid>
             </Container>

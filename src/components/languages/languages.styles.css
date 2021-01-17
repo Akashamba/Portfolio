@@ -16,8 +16,20 @@
     padding: 0 30px;
 }
 
+.item-image {
+    width: 50%;
+}
+
+.item-large-image {
+    width: 15%;
+}
+
 @media(min-width: 768px) {
     .mobile-hr {
         display: none;
+    }
+
+    .item-image {
+        width: 35%;
     }
 }
