@@ -20,11 +20,19 @@ export default function Certifications() {
                         <p className="item-content">In Progress</p>
                     </Grid>
 
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-right">
+                        <hr/>
+                    </Grid>
+
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
                         <h3 className="item-heading">Web Design for Everybody Specialization</h3>
                         <p className="item-content">From the University of Michigan</p>
                         <p className="item-content">on Coursera</p>
                         <p className="item-content"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/CQ6DZNM49XE4" className="item-link">View Certificate</a></p>
+                    </Grid>
+
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-left">
+                        <hr/>
                     </Grid>
 
                     <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
@@ -34,10 +42,18 @@ export default function Certifications() {
                         <p className="item-content"><a href="https://coursera.org/share/87e0b6110a5736bde9eeab0d216cbe8a" className="item-link">View Certificate</a></p>
                     </Grid>
 
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-right">
+                        <hr/>
+                    </Grid>
+
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
                         <h3 className="item-heading">Research Paper Presentation Contest</h3>
                         <p className="item-content">Motion Microscope to detect Covid-19</p>
                         <p className="item-content">Runners Up</p>
+                    </Grid>
+
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-left">
+                        <hr/>
                     </Grid>
 
                     <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
@@ -47,6 +63,10 @@ export default function Certifications() {
                         {/*<p className="item-content"><a href="https://coursera.org/share/87e0b6110a5736bde9eeab0d216cbe8a" className="item-link">View Certificate</a></p>*/}
                     </Grid>
 
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-right">
+                        <hr/>
+                    </Grid>
+
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
                         <h3 className="item-heading">STEP Certification</h3>
                         <p className="item-content">from The Hindu Group</p>
@@ -54,10 +74,13 @@ export default function Certifications() {
                         <p className="item-content"><a href="https://assets.steptest.in/certificates/STEP-592605440935006485-20200129095622.pdf" className="item-link">View Certificate</a></p>
                     </Grid>
 
-                    <Grid className="item-container" data-aos="fade-top" item xs={12}>
-                        <p className="item-content">Visit <a href="https://www.linkedin.com/in/akash-ambashankar/" className="item-link">LinkedIn</a> for more certifications</p>
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-left">
+                        <hr/>
                     </Grid>
 
+                    <Grid className="item-container" data-aos="fade-top" item xs={12}>
+                        <p className="item-content">Inviting you to connect with me on <a href="https://www.linkedin.com/in/akash-ambashankar/" className="item-link">LinkedIn</a></p>
+                    </Grid>
                 </Grid>
             </Container>
         </div>

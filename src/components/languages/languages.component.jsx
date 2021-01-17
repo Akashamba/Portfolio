@@ -19,11 +19,19 @@ export default function Languages() {
                         <p className="item-content">Practicing <b>React</b> through various projects</p>
                         <p className="item-content">Learning basics of <b>Node&nbsp;JS</b></p>
                     </Grid>
+                    
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-right">
+                        <hr/>
+                    </Grid>
 
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
                         <h3 className="item-heading">Git and GitHub</h3>
-                        <p className="item-content"><b>commit, push, pull...</b></p>
+                        <p className="item-content">Able to <b>maintain software versions</b> using <b>git</b></p>
                         <p className="item-content">Collaborative Projects</p>
+                    </Grid>
+                    
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-left">
+                        <hr/>
                     </Grid>
 
                     <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
@@ -32,11 +40,19 @@ export default function Languages() {
                         <p className="item-content"><b>powerful, effective, fast</b></p>
                         <p className="item-content"><b>cross-platform</b> apps on the web</p>
                     </Grid>
+                    
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-right">
+                        <hr/>
+                    </Grid>
 
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
                         <h3 className="item-heading">Python Programming</h3>
                         <p className="item-content">Knowledge of Python and Python modules</p>
                         <p className="item-content">including <b>Pandas, Flask</b></p>
+                    </Grid>
+                    
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-left">
+                        <hr/>
                     </Grid>
 
                     <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
@@ -45,16 +61,20 @@ export default function Languages() {
                         <p className="item-content">An essential for <b>Security&nbsp;Engineering</b></p>
                         <p className="item-content"></p>
                     </Grid>
+                    
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-right">
+                        <hr/>
+                    </Grid>
 
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
                         <h3 className="item-heading">Communication</h3>
-                        <p className="item-content">Well Spoken and Well Mannered</p>
-                        <p className="item-content"><b>Clarity</b> in <b>words</b> and <b>action</b></p>
+                        <p className="item-content">Well Spoken and<br/>Well Mannered</p>
+                        <h3 className="item-heading">Clarity</h3>
+                        <p className="item-content">in <b>words</b><br/>and <b>action</b></p>
                         <p className="item-content">Important tool for a Developer</p>
-
                     </Grid>
                 </Grid>
-            </Container>
+          </Container>
         </div>
     );
 }

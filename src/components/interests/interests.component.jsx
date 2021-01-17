@@ -21,6 +21,7 @@ export default function Interests() {
                         <h3 className="item-heading">Ethical Hacking</h3>
                     </Grid>
 
+
                     <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
                         <h3 className="item-heading">Machine Learning</h3>
                     </Grid>
@@ -29,11 +30,19 @@ export default function Interests() {
                         <h3 className="item-heading">Problem Solving</h3>
                     </Grid>
 
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-left">
+                        <hr/>
+                    </Grid>
+
                     <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
                         <h3 className="item-heading">Designing</h3>
-                        <p className="item-content">Frontend Web Designing</p>
+                        <p className="item-content">UI/UX Designing</p>
                         <p className="item-content">Video Editing / <a className="item-link" href="https://www.youtube.com/watch?v=CpDJye53FDI&t=1s">Montages</a></p>
                         <p className="item-content"><a className="item-link" href="https://www.instagram.com/serendipitous59/">Photography</a></p>
+                    </Grid>
+
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-right">
+                        <hr/>
                     </Grid>
 
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>

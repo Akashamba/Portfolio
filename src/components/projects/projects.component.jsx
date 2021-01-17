@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import {projects} from '../../utilities/lists.js';
-import {Grid, Container} from '@material-ui/core'
+import {Grid, Container} from '@material-ui/core';
+import nokia from '../../assets/images/nokia.png';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import './projects.styles.css';
@@ -16,9 +17,14 @@ export default function Languages() {
                 <Grid container>
                     <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
                         <h3 className="item-heading">Internship&nbsp;at M/s. Nokia&nbsp;Networks</h3>
+                        <img src={nokia} alt="nokia logo" className="item-image"/>
                         <p className="item-content">Worked on <b>Web Development Projects</b></p>
                         <p className="item-content">using <b>React</b></p>
                         <p className="item-content">Learnt <b>collaborative</b> workflow</p>
+                    </Grid>
+
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-right">
+                        <hr/>
                     </Grid>
 
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
@@ -28,6 +34,10 @@ export default function Languages() {
                         <p className="item-content"><a className="item-link" href={projects[0].link}>{projects[0].name}</a></p>
                     </Grid>
 
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-left">
+                        <hr/>
+                    </Grid>
+
                     <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
                         <h3 className="item-heading">Dictionary App</h3>
                         <p className="item-content">A <b>PWA</b> built on <b>Oxford API</b></p>
@@ -35,11 +45,19 @@ export default function Languages() {
                         <p className="item-content"><a className="item-link" href={projects[1].link}>{projects[1].name}</a></p>
                     </Grid>
 
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-right">
+                        <hr/>
+                    </Grid>
+
                     <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
                         <h3 className="item-heading">Todo Web App</h3>
                         <p className="item-content"><b>Full Stack PWA</b> to manage daily tasks</p>
                         <p className="item-content">Easy to use and cross-platform</p>
                         <p className="item-content"><a className="item-link" href={projects[2].link}>{projects[2].name}</a></p>
+                    </Grid>
+
+                    <Grid item xs={12} className="mobile-hr" data-aos="fade-left">
+                        <hr/>
                     </Grid>
 
                     <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
