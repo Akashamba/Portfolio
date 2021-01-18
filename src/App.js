@@ -10,7 +10,7 @@ function App() {
 
     const [load, setLoad] = useState(false);
     
-    window.setTimeout(() => setLoad(true), 3000)
+    window.setTimeout(() => setLoad(true), 1000)
     
     if(load)
         return (
