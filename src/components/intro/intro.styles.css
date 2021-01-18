@@ -45,3 +45,9 @@
         width: 35%;
     }
 }
+
+@media(max-width: 600px) {
+    #profile-picture-closed {
+        width: 40%;
+    }
+}
