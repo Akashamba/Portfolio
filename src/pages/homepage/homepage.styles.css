@@ -18,7 +18,8 @@
 }
 
 #intro-and-social {
-    min-height: 100vh;
-    /* background-image: linear-gradient(to top, #6f86d6 0%, #043863 100%); */
+    min-height: 560px;
+    height: 100vh;
+    position: relative;
     background-color: rgba(0,0,0,0);
 }

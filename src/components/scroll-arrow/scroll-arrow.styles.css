@@ -77,15 +77,14 @@
 
 #scroll-arrow-container {
     position: absolute;
-    top: 90vh;
+    bottom: 2%;
     left: 50vw;
     text-align: center;
-    padding: 15px 0;
 }
 
 .fa-angle-up {
     transform: translateY(0px);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: #fff;
     animation: animate-arrow 1.7s infinite;
 }
