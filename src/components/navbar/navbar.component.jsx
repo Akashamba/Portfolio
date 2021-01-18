@@ -22,7 +22,7 @@ export default function Navbar() {
 
                 <div id="navigation">
                     {navigation.map(location => (
-                        <AnchorLink key={location.link} className="nav-link" href={location.link}>{location.name}</AnchorLink>    
+                        <AnchorLink offset="30" key={location.link} className="nav-link" href={location.link}>{location.name}</AnchorLink>    
                     ))}
                     <a className="nav-link" href="https://drive.google.com/file/d/1XJBgbOUDEuJOl1dCwBOIwJDjydOt0Xfg/view?usp=sharing">Resume</a>
                 </div>
@@ -30,7 +30,7 @@ export default function Navbar() {
                 <MenuIcon id="menu-icon" onClick={() => setOpen(true)}/>
                 <Drawer anchor="right" open={open} onClose={() => setOpen(false)}>
                     {navigation.map(location => (
-                        <AnchorLink key={location.link} className="nav-link side" onClick={() => setOpen(false)}
+                        <AnchorLink offset="30" key={location.link} className="nav-link side" onClick={() => setOpen(false)}
                                     href={location.link}>{location.name}</AnchorLink>    
                     ))}
                     <a className="nav-link side" href="https://drive.google.com/file/d/1XJBgbOUDEuJOl1dCwBOIwJDjydOt0Xfg/view?usp=sharing">Resume</a>

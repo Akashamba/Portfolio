@@ -40,10 +40,3 @@
         display: none;
     }
 }
-
-#languages::before, #certifications::before, #projects::before, #interests::before {
-    content: "filler-text";
-    font-size: 1.5rem;
-    margin-top: 15px;
-    visibility: hidden; 
-}

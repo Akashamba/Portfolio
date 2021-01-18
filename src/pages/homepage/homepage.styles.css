@@ -1,6 +1,9 @@
 .section {
     padding: 50px 10px 90px 10px;
     overflow-x: hidden;
+    background-image: url('../../assets/images/overlay60.png');
+    background-repeat: repeat;
+    z-index: 2;
 }
 
 .sub-title {
