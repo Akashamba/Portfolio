@@ -30,9 +30,11 @@ export default function Navbar() {
                 <MenuIcon id="menu-icon" onClick={() => setOpen(true)}/>
                 <Drawer anchor="right" open={open} onClose={() => setOpen(false)}>
                     {navigation.map(location => (
-                        <a key={location.link} className="nav-link side" onClick={() => setOpen(false)} href={location.link}>{location.name}</a>    
+                        <AnchorLink key={location.link} className="nav-link side" onClick={() => setOpen(false)}
+                                    href={location.link}>{location.name}</AnchorLink>    
                     ))}
-                </Drawer>
+                    <a className="nav-link side" href="https://drive.google.com/file/d/1XJBgbOUDEuJOl1dCwBOIwJDjydOt0Xfg/view?usp=sharing">Resume</a>
+            </Drawer>
             </Toolbar>
         </AppBar>
     )
