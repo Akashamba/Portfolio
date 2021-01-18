@@ -37,6 +37,19 @@
     margin: 5px;
 }
 
+@media(min-width: 300px) {
+    #profile-picture-closed {
+        width: 40%;
+    }
+}
+
+@media(min-width: 600px) {
+    #profile-picture-closed {
+        width: 20%;
+        margin-top: 20px;
+    }
+}
+
 @media(min-width: 768px) {
     #intro-content {
         width: 100%;
@@ -46,8 +59,9 @@
     }
 }
 
-@media(max-width: 600px) {
+@media(max-height: 414px) {
     #profile-picture-closed {
-        width: 40%;
+        width: 140px;
+        margin-top: 20px;
     }
 }
