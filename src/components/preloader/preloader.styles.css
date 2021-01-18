@@ -1,0 +1,12 @@
+#preloader-container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#load-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}

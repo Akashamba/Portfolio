@@ -1,6 +1,5 @@
 #intro-container {
     position: absolute;
-    top: 15vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -60%);

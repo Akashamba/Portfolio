@@ -1,5 +1,6 @@
 import React from 'react';
 import {footer, socials} from '../../utilities/lists.js';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './footer.styles.css'
 
 export default function Footer() {
@@ -7,7 +8,7 @@ export default function Footer() {
     return(
         <div id="footer">
             <p>
-                <a href={footer.home} className="footer-link">About</a> 
+                <AnchorLink href={footer.home} className="footer-link">Home</AnchorLink> 
                 &nbsp; | &nbsp; 
                 <a href={footer.resume} className="footer-link">Resume</a> 
                 &nbsp; | &nbsp;
