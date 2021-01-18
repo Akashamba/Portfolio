@@ -21,7 +21,7 @@ export default function Homepage() {
                 <Socials/> 
                 <ScrollArrow/>
             </div>
-            <Container className="container" style={{padding: '0'}} maxWidth="lg">               
+            <Container className="container" style={{padding: '0'}} maxWidth="xl">               
                 <Languages/>                    
                 <Projects/>                    
                 <Interests/>                    
