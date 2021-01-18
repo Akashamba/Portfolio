@@ -1,58 +1,93 @@
 @-webkit-keyframes animate-arrow {
     0% {
         transform: translateY(0px);
+        color: rgba(255, 255, 255, 0.5);
     }
     25% {
-        transform: translateY(-10px);
+        transform: translateY(-7px);
+        color: rgba(255, 255, 255, 1);
+        
+    }
+    75% {
+        transform: translateY(-7px);
+        color: rgba(255, 255, 255, 1);    
     }
     100% {
         transform: translateY(0px);
+        color: rgba(255, 255, 255, 0.5);
     }
 }
 @-moz-keyframes animate-arrow {
     0% {
         transform: translateY(0px);
+        color: rgba(255, 255, 255, 0.5);
     }
     25% {
-        transform: translateY(10px);
+        transform: translateY(-7px);
+        color: rgba(255, 255, 255, 1);
+        
+    }
+    75% {
+        transform: translateY(-7px);
+        color: rgba(255, 255, 255, 1);    
     }
     100% {
         transform: translateY(0px);
+        color: rgba(255, 255, 255, 0.5);
     }
 }
 @-o-keyframes animate-arrow {
     0% {
         transform: translateY(0px);
+        color: rgba(255, 255, 255, 0.5);
     }
     25% {
-        transform: translateY(10px);
+        transform: translateY(-7px);
+        color: rgba(255, 255, 255, 1);
+        
+    }
+    75% {
+        transform: translateY(-7px);
+        color: rgba(255, 255, 255, 1);    
     }
     100% {
         transform: translateY(0px);
+        color: rgba(255, 255, 255, 0.5);
     }
 }
 @keyframes animate-arrow {
     0% {
         transform: translateY(0px);
+        color: rgba(255, 255, 255, 0.5);
     }
     25% {
-        transform: translateY(10px);
+        transform: translateY(-7px);
+        color: rgba(255, 255, 255, 1);
+        
+    }
+    75% {
+        transform: translateY(-7px);
+        color: rgba(255, 255, 255, 1);    
     }
     100% {
         transform: translateY(0px);
+        color: rgba(255, 255, 255, 0.5);
     }
 }
 
 #scroll-arrow-container {
+    position: absolute;
+    top: 90vh;
+    left: 50vw;
     text-align: center;
     padding: 15px 0;
 }
 
 .fa-angle-up {
     transform: translateY(0px);
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #fff;
-    animation: animate-arrow 1s infinite;
+    animation: animate-arrow 1.7s infinite;
 }
 
 #arrow:hover {

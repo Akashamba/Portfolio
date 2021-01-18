@@ -1,12 +1,9 @@
 #intro-container {
-    padding: 20px 24px;
-    padding-top: 90px;
-}
-
-@media(min-width: 768px) {
-    #intro-container {
-        padding-top: 120px;
-    }
+    position: absolute;
+    top: 15vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
 }
 
 #profile-picture-closed {

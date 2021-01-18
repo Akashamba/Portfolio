@@ -15,5 +15,6 @@
 }
 
 #intro-and-social {
+    min-height: 100vh;
     background-image: linear-gradient(to top, #6f86d6 0%, #043863 100%);
 }
