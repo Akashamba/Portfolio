@@ -7,8 +7,10 @@ export default function Socials() {
 
     return(
         <Grid container id="socials">
-            {socials.map(icon => (
-                <Grid item xs={2} key={icon.name}>
+            {socials.filter(icon => 
+                icon.name !== "fab fa-twitter" && icon.name !== "fab fa-instagram"
+                ).map(icon => (
+                <Grid className="social-icon-wrapper" item xs={2} key={icon.name}>
                     <a href={icon.link}><i className={`social-icon ${icon.name}`}></i></a>
                 </Grid>
             ))}

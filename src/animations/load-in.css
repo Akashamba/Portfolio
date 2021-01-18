@@ -54,22 +54,22 @@
     animation: load-in ease-in 0.3s forwards;
 }
 
-.fa-instagram {
+#socials div:nth-child(1) a .social-icon {
     animation-delay: 1s;
 }
-.fa-twitter {
+#socials div:nth-child(2) a .social-icon {
     animation-delay: 1.3s;
 }
-.fa-github {
+#socials div:nth-child(3) a .social-icon {
     animation-delay: 1.6s;
 }
-.fa-linkedin-in {
+#socials div:nth-child(4) a .social-icon {
     animation-delay: 1.9s;
 }
-.fa-medium-m {
+#socials div:nth-child(5) a .social-icon {
     animation-delay: 2.2s;
 }
-.fa-envelope {
+#socials div:nth-child(6) a .social-icon {
     animation-delay: 2.5s;
 }
 

@@ -10,7 +10,7 @@ export default function Footer() {
             <p>
                 <AnchorLink href={footer.home} className="footer-link">Home</AnchorLink> 
                 &nbsp; | &nbsp; 
-                <a href={footer.resume} className="footer-link">Resume</a> 
+                <a href={footer.resume} className="footer-link">Resumé</a> 
                 &nbsp; | &nbsp;
                 <a href={footer.phone} className="footer-link">Phone</a> 
                 &nbsp; | &nbsp; 
@@ -24,15 +24,11 @@ export default function Footer() {
             <p> &copy; <a href="/" className="footer-link">Akash Ambashankar</a></p>
             
             <p>
-                {socials.filter(icon => icon.name !== 'fas fa-envelope').map(icon => (
+                {socials.map(icon => (
                         <a key={icon.name} href={icon.link}><i className={`footer-icon ${icon.name}`}></i></a>
                 ))}
-                <a key="fab fa-whatsapp" href="https://wa.me/+917397705666"><i className={'footer-icon fab fa-whatsapp'}></i></a>
             </p>
             <br/><br/>
         </div>
     )
 }
-
-// about resume mail email
-// social icons
