@@ -10,6 +10,9 @@
     font-size: 2rem;
 }
 
-.social-icon:hover {
-    color: rgba(4,56,99, 0.5);
+@media(hover: hover) {
+    .social-icon:hover {
+        color: rgba(4,56,99, 0.5);
+    }
 }
+

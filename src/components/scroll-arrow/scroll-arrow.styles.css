@@ -89,6 +89,8 @@
     animation: animate-arrow 1.7s infinite;
 }
 
-#arrow:hover {
-    color: rgba(4,56,99, 0.5);
+@media(hover: hover) {
+    #arrow:hover {
+        color: rgba(4,56,99, 0.5);
+    }
 }

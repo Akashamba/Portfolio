@@ -16,8 +16,11 @@
     padding: 5px 10px;
 }
 
-.nav-link:hover {
-    background-color: rgba(255,255,255, 0.3);
+@media(hover: hover) {
+    .nav-link:hover {
+        background-color: rgba(255,255,255, 0.3);
+}
+
 }
 
 .side {

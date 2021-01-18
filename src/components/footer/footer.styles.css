@@ -12,16 +12,18 @@
     text-decoration-color: #9050fe;
 }
 
-.footer-link:hover {
-    text-decoration-color: #28cbfd;
-}
-
 .footer-icon {
     color: #fff;
     font-size: 1.5rem;
     padding: 0 5px;
 }
 
-.footer-icon:hover {
-    color: #9050fe;
+@media(hover: hover) {
+    .footer-link:hover {
+        text-decoration-color: #28cbfd;
+    }
+
+    .footer-icon:hover {
+        color: #9050fe;
+    }
 }
