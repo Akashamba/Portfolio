@@ -9,6 +9,7 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "aos": "^2.3.4",
+    "particles-bg": "^2.5.0",
     "react": "^17.0.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^17.0.1",

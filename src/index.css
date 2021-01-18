@@ -8,8 +8,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: #6f86d6;
-  /* background-image: linear-gradient(to bottom right, #434343, black); */
+  /* background-color: #6f86d6; */
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   overflow-x: hidden;
 }
 

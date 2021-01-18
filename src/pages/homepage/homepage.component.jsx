@@ -7,6 +7,7 @@ import Footer from '../../components/footer/footer.component';
 import Certifications from '../../components/certifications/certifications.component';
 import Interests from '../../components/interests/interests.component';
 import ScrollArrow from '../../components/scroll-arrow/scroll-arrow.component.jsx';
+import ParticlesBg from 'particles-bg';
 import {Container} from '@material-ui/core';
 import './homepage.styles.css';
 
@@ -14,6 +15,7 @@ export default function Homepage() {
     return (
         <div id="homepage">
             <div id="intro-and-social">
+                <ParticlesBg type="cobweb" color="ffffff" bg={true} />
                 <Intro/>
                 <Socials/> 
                 <ScrollArrow/>
