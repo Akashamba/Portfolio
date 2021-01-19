@@ -44,13 +44,13 @@
     }
 }
 
-@media(min-width: 600px) {
+@media(min-width: 960px) {
     #profile-picture-closed {
         width: 20%;
     }
 }
 
-@media(min-width: 768px) {
+@media(min-width: 960px) {
     #intro-content {
         width: 100%;
     }
