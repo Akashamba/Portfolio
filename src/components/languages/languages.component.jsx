@@ -36,7 +36,7 @@ export default function Languages() {
                         </Grid>
 
                         <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
-                            <h3 className="item-heading">Progressive&nbsp;Web Apps (PWAs)</h3>
+                            <h3 className="item-heading">Progressive Web Apps (PWAs)</h3>
                             <p className="item-content">Able to design PWAs with React</p>
                             <p className="item-content"><b>powerful, effective, fast</b></p>
                             <p className="item-content"><b>cross-platform</b> apps on the web</p>
@@ -71,7 +71,7 @@ export default function Languages() {
                             <h3 className="item-heading">Communication</h3>
                             <p className="item-content">Well Spoken & Well&nbsp;Mannered</p>
                             <p className="item-content"></p>
-                            <p className="item-content"><span style={{fontSize: '2rem', fontWeight: 'bold'}}>Clarity</span><br/>in <b>Words</b> & <b>Action</b></p>
+                            <p className="item-content"><span style={{fontSize: '2rem', fontWeight: 'bold'}}>Clarity</span> in&nbsp;<b>Words</b>&nbsp;&&nbsp;<b>Action</b></p>
                         </Grid>
                     </Grid>
                 </Container>

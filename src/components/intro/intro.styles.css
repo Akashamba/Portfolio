@@ -17,6 +17,7 @@
 
 .intro-content {
     width: 80%;
+    max-width: 450px;
     margin: 0 auto;
     text-align: center;
     font-size: 1.1rem;
@@ -46,7 +47,6 @@
 @media(min-width: 600px) {
     #profile-picture-closed {
         width: 20%;
-        margin-top: 20px;
     }
 }
 

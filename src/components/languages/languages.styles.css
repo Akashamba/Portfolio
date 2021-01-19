@@ -6,10 +6,13 @@
 
 .item-heading {
     font-size: 2.3rem;
+    padding-bottom: 15px;
 }
 
 .item-content {
     font-size: 1.6rem;
+    margin-block-start: 0.6em;
+    margin-block-end: 0.8em;
 }
 
 .item-container {
