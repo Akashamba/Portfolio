@@ -24,7 +24,7 @@
     background-color: rgba(0,0,0,0);
 }
 
-@media(min-width: 960px) {
+@media(min-width: 1280px) {
     #intro-and-social {
         height: 100vh;
     }
