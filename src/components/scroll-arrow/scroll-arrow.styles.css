@@ -3,14 +3,10 @@
         transform: translateY(0px);
         color: rgba(255, 255, 255, 0.5);
     }
-    25% {
-        transform: translateY(-7px);
+    50% {
+        transform: translateY(-10px);
         color: rgba(255, 255, 255, 1);
         
-    }
-    75% {
-        transform: translateY(-7px);
-        color: rgba(255, 255, 255, 1);    
     }
     100% {
         transform: translateY(0px);
@@ -22,14 +18,10 @@
         transform: translateY(0px);
         color: rgba(255, 255, 255, 0.5);
     }
-    25% {
-        transform: translateY(-7px);
+    50% {
+        transform: translateY(-10px);
         color: rgba(255, 255, 255, 1);
         
-    }
-    75% {
-        transform: translateY(-7px);
-        color: rgba(255, 255, 255, 1);    
     }
     100% {
         transform: translateY(0px);
@@ -41,14 +33,10 @@
         transform: translateY(0px);
         color: rgba(255, 255, 255, 0.5);
     }
-    25% {
-        transform: translateY(-7px);
+    50% {
+        transform: translateY(-10px);
         color: rgba(255, 255, 255, 1);
         
-    }
-    75% {
-        transform: translateY(-7px);
-        color: rgba(255, 255, 255, 1);    
     }
     100% {
         transform: translateY(0px);
@@ -60,14 +48,10 @@
         transform: translateY(0px);
         color: rgba(255, 255, 255, 0.5);
     }
-    25% {
-        transform: translateY(-7px);
+    50% {
+        transform: translateY(-10px);
         color: rgba(255, 255, 255, 1);
         
-    }
-    75% {
-        transform: translateY(-7px);
-        color: rgba(255, 255, 255, 1);    
     }
     100% {
         transform: translateY(0px);
@@ -77,7 +61,7 @@
 
 #scroll-arrow-container {
     position: absolute;
-    bottom: 2%;
+    bottom: 25px;
     left: 50vw;
     text-align: center;
 }
@@ -86,7 +70,7 @@
     transform: translateY(0px);
     font-size: 1.8rem;
     color: #fff;
-    animation: animate-arrow 1.7s infinite;
+    animation: animate-arrow 2s infinite;
 }
 
 @media(hover: hover) {

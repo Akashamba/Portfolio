@@ -12,7 +12,7 @@
 
 @media(hover: hover) {
     .social-icon:hover {
-        color: rgba(4,56,99, 0.5);
+        color: rgba(255,255,255, 0.8);
     }
 }
 
