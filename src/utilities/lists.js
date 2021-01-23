@@ -8,12 +8,13 @@ export const navigation = [
 ]
 
 export const resume = "https://drive.google.com/file/d/1XJBgbOUDEuJOl1dCwBOIwJDjydOt0Xfg/view?usp=sharing";
+export const blog = "https://akashamba-blog.netlify.app/";
 
 export const socials = [
     {name: "fas fa-phone-alt", link: "tel:7397705666"},
     {name: "fab fa-instagram", link: "https://www.instagram.com/_akashamba_/"},
     {name: "fab fa-twitter", link: "https://twitter.com/akashamba238"},
-    {name: "fab fa-medium-m", link: "https://akashambashankar.medium.com/"},
+    {name: "fas fa-blog", link: blog},
     {name: "fab fa-github", link: "https://github.com/Akashamba"},
     {name: "fab fa-linkedin-in", link: "https://www.linkedin.com/in/akash-ambashankar/"},
     {name: "fab fa-whatsapp", link: "https://wa.me/+917397705666"},
