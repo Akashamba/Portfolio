@@ -25,7 +25,13 @@ export default function Homepage() {
                 <Languages/>                    
                 <Projects/>                    
                 <Interests/>                    
-                <Certifications/>                                    
+                <Certifications/>
+                <p className="connect-on-linkedin">
+                    Inviting you to connect with me on 
+                    My <a href="https://www.linkedin.com/in/akash-ambashankar/" className="item-link">
+                        LinkedIn
+                    </a>
+                </p>                                    
             </Container>
             <Footer/>
         </div>

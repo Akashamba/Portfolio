@@ -75,14 +75,6 @@ export default function Certifications() {
                             <p className="item-content">Listening, Speaking, Reading and Writing skills in English</p>
                             <p className="item-content"><a href="https://assets.steptest.in/certificates/STEP-592605440935006485-20200129095622.pdf" className="item-link">View Certificate</a></p>
                         </Grid>
-
-                        <Grid item xs={12} className="mobile-hr" data-aos="fade-left">
-                            <hr/>
-                        </Grid>
-
-                        <Grid className="item-container" data-aos="fade-top" item xs={12}>
-                            <p className="item-content">Inviting you to connect with me on My <a href="https://www.linkedin.com/in/akash-ambashankar/" className="item-link">LinkedIn</a></p>
-                        </Grid>
                     </Grid>
                 </Container>
             </div>

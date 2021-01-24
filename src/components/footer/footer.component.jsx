@@ -14,7 +14,7 @@ export default function Footer() {
                 &nbsp; | &nbsp;
                 <a href={footer.phone} className="footer-link">Phone</a> 
                 &nbsp; | &nbsp; 
-                <a href={footer.email} className="footer-link">Email</a>                 
+                <a href={footer.email} className="footer-link">E-mail</a>                 
                 &nbsp; | &nbsp; 
                 <a href={footer.feedback} className="footer-link">Feedback</a>                                 
             </p>

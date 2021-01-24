@@ -68,15 +68,14 @@ export default function Languages() {
                         <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
                             <h3 className="item-heading">Telegram Chatbots</h3>
                             <p className="item-content">Chatbots built in Python to perform various functions</p>
-                            <img src={telegram} alt="telegram logo" className="item-large-image"/>
-                            <p className="item-content"><u>WordBot:</u> Meanings, synonyms, etc for words</p>
-                            <p className="item-content"><u>TV Bot:</u> Movie and TV show details</p>
+                        </Grid>
+
+                        <Grid item xs={12} className="mobile-hr" data-aos="fade-left">
+                            <hr/>
                         </Grid>
 
                         <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
-                        <h3 className="item-heading">Visit <a className="item-link" href="https://github.com/Akashamba">GitHub</a> for more projects</h3>
-                        <div style={{height: '20%'}}></div>
-                            <img src={github} style={{backgroundColor: "#fff", borderRadius: "50%"}} alt="github logo" className="item-large-image"/>
+                            <h3 id="visit-github" className="item-heading">Visit My <a className="item-link" href="https://github.com/Akashamba">GitHub</a> for more projects</h3>
                         </Grid>
                     </Grid>
                 </Container>

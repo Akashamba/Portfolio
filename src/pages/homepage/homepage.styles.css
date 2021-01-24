@@ -24,6 +24,13 @@
     background-color: rgba(0,0,0,0);
 }
 
+.connect-on-linkedin {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+}
+
 @media(min-width: 1280px) {
     #intro-and-social {
         height: 100vh;
