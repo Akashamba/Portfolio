@@ -3,8 +3,6 @@ import {projects} from '../../utilities/lists.js';
 import {Grid, Container} from '@material-ui/core';
 import nokia from '../../assets/images/nokia.png';
 import tracker from '../../assets/images/logo.png';
-import telegram from '../../assets/images/telegram.webp';
-import github from '../../assets/images/github.webp';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import './projects.styles.css';
