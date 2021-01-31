@@ -56,7 +56,7 @@ export default function Languages() {
                             <h3 className="item-heading">Todo Web App</h3>
                             <p className="item-content"><b>Full Stack PWA</b> to manage daily tasks</p>
                             <p className="item-content">Easy to use and cross-platform</p>
-                            <p className="item-content"><a className="item-link" href={projects[2].link}>{projects[2].name}</a></p>
+                            <p className="item-content"><a className="item-link" href={projects[2].link}>{projects[2].name}</a> (In Development)</p>
                         </Grid>
 
                         <Grid item xs={12} className="mobile-hr" data-aos="fade-left">
