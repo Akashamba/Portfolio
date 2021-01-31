@@ -50,8 +50,9 @@ export default function Certifications() {
                         <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
                             <h3 className="item-heading">Research Paper Presentation Contest</h3>
                             <p className="item-content">Motion Microscope to detect Covid-19</p>
-                            <p className="item-content">Team of three</p>
+                            {/*<p className="item-content">Team of three</p>*/}
                             <p className="item-content">Runners Up</p>
+                            <p className="item-content"><a href="https://drive.google.com/file/d/1cYdpu472JywsFOiKQIpg4ud1Jv7QvXAx/view?usp=sharing" className="item-link">View Certificate</a></p>
                         </Grid>
 
                         <Grid item xs={12} className="mobile-hr" data-aos="fade-left">
