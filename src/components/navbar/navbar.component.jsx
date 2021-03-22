@@ -18,7 +18,7 @@ export default function Navbar() {
     return(
         <AppBar position="fixed">
             <Toolbar>
-                <p className="appbar-text">Akash</p>
+                <AnchorLink href="#home" className="appbar-text">Akash</AnchorLink>
 
                 <div id="navigation">
                     {navigation.map(location => (

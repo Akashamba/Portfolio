@@ -29,7 +29,7 @@ export default function Certifications() {
                             <h3 className="item-heading">Object-Oriented Design</h3>
                             <p className="item-content">From the University of Alberta</p>
                             <p className="item-content">on Coursera</p>
-                            <p className="item-content"><a href="https://coursera.org/share/87e0b6110a5736bde9eeab0d216cbe8a" className="item-link">View Certificate</a></p>
+                            <p className="item-content"><a href="https://drive.google.com/file/d/1kH7pt_sXYggueFKyNecgj01ttYlpHD2T/view?usp=sharing" className="item-link">View Certificate</a></p>
                         </Grid>
 
                         <Grid item xs={12} className="mobile-hr" data-aos="fade-left">
@@ -40,7 +40,7 @@ export default function Certifications() {
                             <h3 className="item-heading">Web Design for Everybody Specialization</h3>
                             <p className="item-content">From the University of Michigan</p>
                             <p className="item-content">on Coursera</p>
-                            <p className="item-content"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/CQ6DZNM49XE4" className="item-link">View Certificate</a></p>
+                            <p className="item-content"><a href="https://drive.google.com/file/d/10hmOXZdivN_mdB_ApzJQnDcVc-c1jFYX/view?usp=sharing" className="item-link">View Certificate</a></p>
                         </Grid>
 
                         <Grid item xs={12} className="mobile-hr" data-aos="fade-right">
@@ -63,7 +63,7 @@ export default function Certifications() {
                             <h3 className="item-heading">BEC Vantage Certification</h3>
                             <p className="item-content">From Cambridge English</p>
                             <p className="item-content">Certified in Business English Communication</p>
-                            {/*<p className="item-content"><a href="https://coursera.org/share/87e0b6110a5736bde9eeab0d216cbe8a" className="item-link">View Certificate</a></p>*/}
+                            <p className="item-content"><a href="https://drive.google.com/file/d/1nvdQWf0bcogGJFeDc6Zr_ddyuL3dipTJ/view?usp=sharing" className="item-link">View Certificate</a></p>
                         </Grid>
 
                         <Grid item xs={12} className="mobile-hr" data-aos="fade-right">
