@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import logo from '../../assets/images/logo-t.png';
 import {AppBar, Toolbar, Drawer} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import {navigation, resume, blog} from '../../utilities/lists.js';
@@ -18,7 +19,11 @@ export default function Navbar() {
     return(
         <AppBar position="fixed">
             <Toolbar>
-                <AnchorLink href="#home" className="appbar-text">Akash</AnchorLink>
+                {/* <AnchorLink href="#home" className="appbar-text">Akash</AnchorLink> */}
+                <AnchorLink href="#home" className="appbar-brand">
+                    <img src={logo} alt="Akash Ambashankar Logo" className="logo" />
+                    <p class="appbar-text">Akash Ambashankar</p>
+                </AnchorLink>
 
                 <div id="navigation">
                     {navigation.map(location => (

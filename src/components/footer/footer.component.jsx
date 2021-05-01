@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../assets/images/logo-t.png';
 import {footer, socials} from '../../utilities/lists.js';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import './footer.styles.css'
@@ -21,6 +22,8 @@ export default function Footer() {
             <br/>
             <a href="/" className="footer-link">{url}</a>
             <br/><br/>
+            <img src={logo} alt="Akash Ambashankar Logo" className="footer-logo" />
+            <p className="footer-logo-text">The Pentriangle</p>
             <p> &copy; <a href="/" className="footer-link">Akash Ambashankar</a></p>
             
             <p>
@@ -29,7 +32,7 @@ export default function Footer() {
                 ))}
             </p>
             <br/><br/>
-            <p class="quote">"you win, or you learn."</p>
+            <p class="quote">"a good listener is always a good learner."</p>
         </div>
     )
 }
