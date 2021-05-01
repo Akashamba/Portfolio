@@ -12,6 +12,13 @@
     text-decoration-color: #9050fe;
 }
 
+.quote {
+    font-weight: 700;
+    font-style: italic;
+    font-family: serif;
+    font-size: 1.4rem;
+}
+
 .footer-icon {
     color: #fff;
     font-size: 1.5rem;

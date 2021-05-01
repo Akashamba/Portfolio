@@ -29,6 +29,7 @@ export default function Footer() {
                 ))}
             </p>
             <br/><br/>
+            <p class="quote">"you win, or you learn."</p>
         </div>
     )
 }
