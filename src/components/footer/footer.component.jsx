@@ -32,7 +32,8 @@ export default function Footer() {
                 ))}
             </p>
             <br/><br/>
-            <p class="quote">"a good listener is always a good learner."</p>
+            <p class="quote">"a good listener is always</p>
+            <p class="quote">a good learner."</p>
         </div>
     )
 }

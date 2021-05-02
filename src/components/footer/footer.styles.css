@@ -14,7 +14,7 @@
 
 .footer-logo {
     margin-top: 60px;
-    width: 4vw;
+    width: 41px;
     border: 1px solid rgb(255, 255, 255);
 }
 
@@ -27,6 +27,7 @@
     font-style: italic;
     font-family: 'Playfair Display', serif;
     font-size: 1.3rem;
+    margin: 0 auto;
 }
 
 .footer-icon {
