@@ -22,7 +22,7 @@ export default function Navbar() {
                 {/* <AnchorLink href="#home" className="appbar-text">Akash</AnchorLink> */}
                 <AnchorLink href="#home" className="appbar-brand">
                     <img src={logo} alt="Akash Ambashankar Logo" className="logo" />
-                    <p class="appbar-text">Akash Ambashankar</p>
+                    <p className="appbar-text">Akash Ambashankar</p>
                 </AnchorLink>
 
                 <div id="navigation">
