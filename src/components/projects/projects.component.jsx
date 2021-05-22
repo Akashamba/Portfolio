@@ -52,11 +52,18 @@ export default function Languages() {
                             <hr/>
                         </Grid>
 
-                        <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
+                        {/* <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
                             <h3 className="item-heading">Todo Web App</h3>
                             <p className="item-content"><b>Full Stack PWA</b> to manage daily tasks</p>
                             <p className="item-content">Easy to use and cross-platform</p>
                             <p className="item-content"><a className="item-link" href={projects[2].link}>{projects[2].name}</a> (In Development)</p>
+                        </Grid> */}
+
+                        <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
+                            <h3 className="item-heading">Gymshark Fitness Studio</h3>
+                            <p className="item-content"><b>Stylish, Modern and Professional Website</b></p>
+                            <p className="item-content">Demo Website</p>
+                            <p className="item-content"><a className="item-link" href={projects[2].link}>{projects[2].name}</a></p>
                         </Grid>
 
                         <Grid item xs={12} className="mobile-hr" data-aos="fade-left">
