@@ -17,8 +17,10 @@ export default function Intro() {
                 <Grid item xs={12} md={5}>
                     <div className="content intro-content">
                         <p id="intro-name" className="add-spacing">Akash Ambashankar</p>
-                        <p className="intro-sub-text">{getAge()} y/o<span className="add-spacing"> • </span>Web Developer</p>
-                        <p className="intro-sub-text">Aspiring Software Engineer</p>
+                        {/*<p className="intro-sub-text">{getAge()} y/o<span className="add-spacing"> • </span>Web Development</p>*/}
+                        <p className="intro-sub-text">Web Development</p>
+                        <p className="intro-sub-text">Machine Learning<span className="add-spacing"> • </span>Deep Learning</p>
+                        <p className="intro-sub-text" style={{paddingTop: "9px", fontWeight: "700"}}>Undergraduate Research Assistant</p>
                         <br/>
                     </div>
                 </Grid>
