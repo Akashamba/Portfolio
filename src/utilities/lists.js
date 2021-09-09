@@ -7,7 +7,7 @@ export const navigation = [
     {name: "Contact Info", link: "#footer"},
 ]
 
-export const resume = "https://drive.google.com/file/d/12JuJEN6NVv9Q09Yt31zseniMOfF-41Fu/view?usp=sharing";
+export const resume = "https://drive.google.com/file/d/1HZjdUtj8N-u9QZebEJxzz8XiYLzzBiP0/view?usp=sharing";
 export const blog = "https://akashamba-blog.netlify.app/";
 
 export const socials = [
