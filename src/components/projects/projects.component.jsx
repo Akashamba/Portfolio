@@ -1,8 +1,6 @@
 import React, {useEffect} from 'react';
 import {projects} from '../../utilities/lists.js';
 import {Grid, Container} from '@material-ui/core';
-import nokia from '../../assets/images/nokia.png';
-import tracker from '../../assets/images/tracker-logo.png';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import './projects.styles.css';
@@ -18,11 +16,9 @@ export default function Languages() {
                 <Container>
                     <Grid container>
                         <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
-                            <h3 className="item-heading">Internship&nbsp;at M/s. Nokia&nbsp;Networks</h3>
-                            <img src={nokia} alt="nokia logo" className="item-image"/>
-                            <p className="item-content">Worked on <b>Web Development Projects</b></p>
-                            <p className="item-content">using <b>React</b></p>
-                            <p className="item-content">Learnt <b>collaborative</b> workflow</p>
+                            <h3 className="item-heading">Flight Delay Prediction System</h3>
+                            <p className="item-content">A Predictive Machine Learning Engine that can <b>classify delayed flights and predict their delay period</b></p>
+                            <p className="item-content"><a className="item-link" href={projects[5].link}>Source Code</a></p>
                         </Grid>
 
                         <Grid item xs={12} className="mobile-hr" data-aos="fade-right">
@@ -31,9 +27,7 @@ export default function Languages() {
 
                         <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
                             <h3 className="item-heading">Coronavirus Tracker</h3>
-                            <img src={tracker} alt="coronavirus tracker logo" className="item-image"/>
-                            <p className="item-content">Tracks the spread of Covid-19 worldwide</p>
-                            <p className="item-content">Clear Visualization of Data</p>
+                            <p className="item-content">A web app that tracks the spread of Covid-19 worldwide and provides useful data visualization</p>
                             <p className="item-content"><a className="item-link" href={projects[0].link}>{projects[0].name}</a></p>
                         </Grid>
 
@@ -60,9 +54,8 @@ export default function Languages() {
                         </Grid> */}
 
                         <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
-                            <h3 className="item-heading">Gymshark Fitness Studio</h3>
-                            <p className="item-content"><b>Stylish, Modern and Professional Website</b></p>
-                            <p className="item-content">Demo Website</p>
+                            <h3 className="item-heading">Gympark Fitness Studio</h3>
+                            <p className="item-content"><b>Stylish, Modern and Professional demo website</b></p>
                             <p className="item-content"><a className="item-link" href={projects[2].link}>{projects[2].name}</a></p>
                         </Grid>
 

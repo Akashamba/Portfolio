@@ -24,9 +24,10 @@ export const socials = [
 export const projects = [
     {name: 'Coronavirus Tracker', link: 'https://coronavirus-tracker-live.netlify.app/'},
     {name: 'Dictionary App', link: 'https://simple-dictionary.netlify.app'},
-    {name: 'Gymshark Fitness Studio (Demo)', link: 'https://gymshark-fitness.netlify.app/'},
+    {name: 'Gympark Fitness Studio (Demo)', link: 'https://gympark-fitness.netlify.app/'},
     {name: 'Stan Lee Tribute Page', link: 'https://stanlee-tribute.netlify.app'},
     {name: 'Health Me', link: 'https://healthme.netlify.app/'},
+    {name: 'Flight Delay Prediction System', link: 'https://github.com/Akashamba/Flight-Delay-Prediction'},
 ];
 
 export const footer = {
