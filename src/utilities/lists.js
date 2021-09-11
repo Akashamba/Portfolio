@@ -1,6 +1,6 @@
 export const navigation = [
     {name: "Home", link: "#home"},
-    {name: "Skills & Languages", link: "#languages"},
+    {name: "Experience", link: "#experience"},
     {name: "Projects", link: "#projects"},
     {name: "Interests", link: "#interests"},
     {name: "Certifications", link: "#certifications"},

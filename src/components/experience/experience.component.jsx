@@ -4,12 +4,12 @@ import Aos from 'aos';
 import "aos/dist/aos.css";
 import './experience.styles.css';
 
-export default function Languages() {
+export default function Experience() {
     useEffect(() => {
         Aos.init({duration: 1000})
     }, []);
     return (
-        <div id="languages">
+        <div id="experience">
             <div className="section">
                 <h2 className="sub-title long" data-aos="fade-up">Experience</h2>
                 <Container>

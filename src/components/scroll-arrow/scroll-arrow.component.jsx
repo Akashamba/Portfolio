@@ -5,7 +5,7 @@ import './scroll-arrow.styles.css';
 export default function ScrollArrow() {
     return(
         <div id="scroll-arrow-container">
-            <AnchorLink offset="30" id="arrow" href="#languages"><i className="fas fa-angle-up"></i></AnchorLink>
+            <AnchorLink offset="30" id="arrow" href="#experience"><i className="fas fa-angle-up"></i></AnchorLink>
         </div>
     )
 }

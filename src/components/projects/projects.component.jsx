@@ -5,7 +5,7 @@ import Aos from 'aos';
 import "aos/dist/aos.css";
 import './projects.styles.css';
 
-export default function Languages() {
+export default function Projects() {
     useEffect(() => {
         Aos.init({duration: 1000})
     }, []);
