@@ -1,7 +1,7 @@
 import React from 'react';
 import Intro from '../../components/intro/intro.component';
 import Socials from '../../components/socials/socials.component';
-import Languages from '../../components/languages/languages.component';
+import Experience from '../../components/experience/experience.component';
 import Projects from '../../components/projects/projects.component';
 import Footer from '../../components/footer/footer.component';
 import Certifications from '../../components/certifications/certifications.component';
@@ -22,7 +22,7 @@ export default function Homepage() {
                 <ScrollArrow/>
             </div>
             <Container className="container" style={{padding: '0'}} maxWidth="xl">               
-                <Languages/>                    
+                <Experience/>                    
                 <Projects/>                    
                 <Interests/>                    
                 <Certifications/>
