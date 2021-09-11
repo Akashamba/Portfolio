@@ -15,16 +15,16 @@ export default function Interests() {
                 <Container>
                     <Grid container>
                         <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
-                            <h3 className="item-heading">Web Development</h3>
+                            <h3 className="item-heading">Machine Learning</h3>
                         </Grid>
 
                         <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
-                            <h3 className="item-heading">Ethical Hacking</h3>
+                            <h3 className="item-heading">Deep Learning</h3>
                         </Grid>
 
 
                         <Grid className="item-container" data-aos="fade-right" item xs={12} md={6}>
-                            <h3 className="item-heading">Machine Learning</h3>
+                            <h3 className="item-heading">Web Development</h3>
                         </Grid>
 
                         <Grid className="item-container" data-aos="fade-left" item xs={12} md={6}>
