@@ -22,12 +22,11 @@ export const socials = [
 ];
 
 export const projects = [
+    {name: 'German Patent', link: 'https://drive.google.com/file/d/1TFlC6xAzcwiONRcXzoJSf6gm8ATKjbNh/view?usp=sharing'},
+    {},
+    {name: 'Flight Delay  Prediction System', link: 'https://github.com/Akashamba/Flight-Delay-Prediction'},
     {name: 'Coronavirus Tracker', link: 'https://coronavirus-tracker-live.netlify.app/'},
     {name: 'Dictionary App', link: 'https://simple-dictionary.netlify.app'},
-    {name: 'Gympark Fitness Studio (Demo)', link: 'https://gympark-fitness.netlify.app/'},
-    {name: 'Stan Lee Tribute Page', link: 'https://stanlee-tribute.netlify.app'},
-    {name: 'Health Me', link: 'https://healthme.netlify.app/'},
-    {name: 'Flight Delay Prediction System', link: 'https://github.com/Akashamba/Flight-Delay-Prediction'},
 ];
 
 export const footer = {
