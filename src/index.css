@@ -25,3 +25,34 @@ code {
     border-radius: 10px;
     height: 100%;
 }
+
+/* From old homepage.styles.css */
+.sub-title {
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+.MuiGrid-grid-xs-12 {
+  margin: 10px 0!important;
+}
+
+#intro-and-social {
+  min-height: 560px;
+  height: 95vh;
+  position: relative;
+  background-color: rgba(0,0,0,0);
+}
+
+@media(min-width: 1280px) {
+  #intro-and-social {
+      height: 100vh;
+  }
+}
+
+/* New styles */
+a {
+  color: #fff;
+  text-decoration-color: #64b3f4
+}
