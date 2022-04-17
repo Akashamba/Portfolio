@@ -1,44 +1,5 @@
 export const content = {
   sections: {
-    "certifications": {
-      "sectionHeader": "Certifications",
-      "items": [
-        {
-          "mainHeading": "Web Development Specialization",
-          "description": "Taught by the University of Michigan on Coursera",
-          "link": ["Certificate", "https://www.coursera.org/verify/specialization/CQ6DZNM49XE4"]
-        },
-        {
-          "mainHeading": "Neural Networks and Deep Learning",
-          "description": "Taught by Andrew Ng on Coursera",
-          "link": ["Certificate", "https://www.coursera.org/account/accomplishments/verify/JW9WJW83DNZJ"]
-        },
-        {
-          "mainHeading": "Object-Oriented Design",
-          "description": "Taught by the University of Alberta on Coursera",
-          "link": ["Certificate", "https://www.coursera.org/account/accomplishments/verify/3BH3R5PRBBQZ"]
-        },
-        {
-          "mainHeading": "Toastmasters Speech Contest",
-          "subHeading": "Winner",
-          "link": ["Certificate", "https://drive.google.com/file/d/12mS2e8EUY8-dlsaTanbAPBYAMcT8UPPa/view?usp=sharing"]
-        },
-        {
-          "mainHeading": "Idea Presentation Contest",
-          "subHeading": "Second Place",
-          "description": "Presented an idea for a Motion Microscope to detect Covid-19. Discussed a no-contact method for mass detection of Coronavirus in a large crowd.",
-          "link": ["Certificate", "https://drive.google.com/file/d/1cYdpu472JywsFOiKQIpg4ud1Jv7QvXAx/view?usp=sharing"]
-        },
-        {
-          "mainHeading": "Head Boy",
-          "description": "Elected as Head Boy by Faculty during Grade 12."
-        }
-      ],
-      "options": {
-        "backgroundImage": "linear-gradient(-20deg,#b721ff,#21d4fd)",
-        "backgroundColor": "#21d4fd"
-      }
-    },
     "experience": {
       "sectionHeader": "Experience",
       "items": [
@@ -70,31 +31,6 @@ export const content = {
       "options": {
         "backgroundImage": "linear-gradient(to top, #4481eb 0%, #04befe 100%)",
         "backgroundColor": "#4481eb"
-      }
-    },
-    "interests": {
-      "sectionHeader": "Interests",
-      "items": [
-        {
-          "mainHeading": "Languages, Tools, and Frameworks",
-          "description": "Python, Javascript, React, Node.js, Flask, git, GitHub, VS Code, Jupyter Notebooks, Figma, LaTex"
-        },
-        {
-          "mainHeading": "Software Engineering",
-          "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
-        },
-        {
-          "mainHeading": "Machine Learning",
-          "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
-        },
-        {
-          "mainHeading": "UI/UX Design",
-          "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
-        }
-      ],
-      "options": {
-        "backgroundImage": "linear-gradient(180deg,#667eea 0,#764ba2)",
-        "backgroundColor": "#667eea"
       }
     },
     "projects": {
@@ -134,6 +70,71 @@ export const content = {
         "backgroundImage": "linear-gradient(180deg,#30cfd0 0,#330867)",
         "backgroundColor": "#30cfd0"
       }
+    },
+    "interests": {
+      "sectionHeader": "Interests",
+      "items": [
+        {
+          "mainHeading": "Languages, Tools, and Frameworks",
+          "description": "Python, Javascript, React, Node.js, Flask, git, GitHub, VS Code, Jupyter Notebooks, Figma, LaTex"
+        },
+        {
+          "mainHeading": "Software Engineering",
+          "description": "I am an enthusiastic software engineer with experience in web development, particularly frontend development using React."
+        },
+        {
+          "mainHeading": "Machine Learning",
+          "description": "I am a passionate machine learning engineer. Problems involving Natural Language Processing (NLP) pique my interest."
+        },
+        {
+          "mainHeading": "UI/UX Design",
+          "description": "I am an enthusiastic UI/UX designer. I have experience in designing user interfaces and experiences for web and mobile applications."
+        }
+      ],
+      "options": {
+        "backgroundImage": "linear-gradient(180deg,#667eea 0,#764ba2)",
+        "backgroundColor": "#667eea"
+      }
+    },
+    "certifications": {
+      "sectionHeader": "Certifications",
+      "items": [
+        {
+          "mainHeading": "Web Development Specialization",
+          "description": "Taught by the University of Michigan on Coursera",
+          "link": ["Certificate", "https://www.coursera.org/verify/specialization/CQ6DZNM49XE4"]
+        },
+        {
+          "mainHeading": "Neural Networks and Deep Learning",
+          "description": "Taught by Andrew Ng on Coursera",
+          "link": ["Certificate", "https://www.coursera.org/account/accomplishments/verify/JW9WJW83DNZJ"]
+        },
+        {
+          "mainHeading": "Object-Oriented Design",
+          "description": "Taught by the University of Alberta on Coursera",
+          "link": ["Certificate", "https://www.coursera.org/account/accomplishments/verify/3BH3R5PRBBQZ"]
+        },
+        {
+          "mainHeading": "Toastmasters Speech Contest",
+          "subHeading": "Winner",
+          "link": ["Certificate", "https://drive.google.com/file/d/12mS2e8EUY8-dlsaTanbAPBYAMcT8UPPa/view?usp=sharing"]
+        },
+        {
+          "mainHeading": "Idea Presentation Contest",
+          "subHeading": "Second Place",
+          "description": "Presented an idea for a Motion Microscope to detect Covid-19. Discussed a no-contact method for mass detection of Coronavirus in a large crowd.",
+          "link": ["Certificate", "https://drive.google.com/file/d/1cYdpu472JywsFOiKQIpg4ud1Jv7QvXAx/view?usp=sharing"]
+        },
+        {
+          "mainHeading": "Head Boy",
+          "description": "Elected as Head Boy by Faculty during Grade 12."
+        }
+      ],
+      "options": {
+        "backgroundImage": "linear-gradient(-20deg,#b721ff,#21d4fd)",
+        "backgroundColor": "#21d4fd"
+      }
     }
-  }
+  },
+  order: ["experience", "projects", "interests", "certifications"]
 }

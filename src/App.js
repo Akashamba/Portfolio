@@ -13,7 +13,6 @@ import { content } from './utilities/content.js';
 
 function App() {
     const [load, setLoad] = useState(false);
-    const sections = ["experience", "projects", "interests", "certifications"]
     const md = useMediaQuery('(min-width:600px)');
 
     useEffect(() => {
@@ -32,30 +31,13 @@ function App() {
                         <ScrollArrow/>
                     </div>
                     <Container className="container" style={{padding: '0'}} maxWidth="xl">               
-                        {sections.map((section, i) => {
+                        {content.order.map((section, i) => {
                             return <Section key={i} data={content.sections[section]} /> 
                         })}
                     </Container>
                     <Footer/>
                 </div>
-
-                {/* <div id="home"></div>
-                    <Navbar/>
-                    <div id="homepage">
-                        <div id="intro-and-social">
-                            <ParticlesBg type="cobweb" num={md?40:15} color="ffffff" bg={true} />
-                            <Intro/>
-                            <Socials/> 
-                            <ScrollArrow/>
-                        </div>
-                        <Container className="container" style={{padding: '0'}} maxWidth="xl">               
-                            {sections.map((section, i) => {
-                                return <Section key={i} data={content.sections[section]} /> 
-                            })}
-                        </Container>
-                        <Footer/>
-                    </div> */}
-                </div>
+            </div>
         );
     return (<Preloader/>)
 }
