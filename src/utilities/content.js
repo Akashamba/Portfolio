@@ -110,20 +110,26 @@ export const content = {
       sectionHeader: "Interests",
       items: [
         {
+          mainHeading: "Algorithms and Graph Theory",
+          description:
+            "My current research interests are in combinatorics of networks, more specifically in broadcasting algorithms.",
+        },
+        {
           mainHeading: "Languages, Tools, and Frameworks",
           description:
-            "Python, Javascript, React, Node.js, Flask, git, GitHub, VS Code, Jupyter Notebooks, Figma, LaTex",
+            "Python, Java, Javascript, React, Node.js, Flask, git, GitHub, VS Code, Jupyter Notebooks, Figma, LaTex",
         },
         {
           mainHeading: "Software Engineering",
           description:
-            "I am an enthusiastic software engineer with experience in web development, particularly frontend development using React.",
+            "I am an enthusiastic software engineer with experience in web development",
+          // particularly frontend development using React.
         },
-        {
-          mainHeading: "Machine Learning",
-          description:
-            "I am a passionate machine learning engineer. Problems involving Natural Language Processing (NLP) pique my interest.",
-        },
+        // {
+        //   mainHeading: "Machine Learning",
+        //   description:
+        //     "I am a passionate machine learning engineer. Problems involving Natural Language Processing (NLP) pique my interest.",
+        // },
         {
           mainHeading: "UI/UX Design",
           description:

@@ -2,6 +2,7 @@ export const navigation = [
   { name: "Home", link: "#home" },
   { name: "Experience", link: "#experience" },
   { name: "Projects", link: "#projects" },
+  { name: "Publications", link: "#publications" },
   { name: "Interests", link: "#interests" },
   { name: "Certifications", link: "#certifications" },
   { name: "Contact Info", link: "#footer" },
