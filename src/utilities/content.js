@@ -4,11 +4,11 @@ export const content = {
       sectionHeader: "Experience",
       items: [
         {
-          mainHeading: "Research Assistant",
+          mainHeading: "Graduate Research Assistant",
           subHeading: "Concordia University",
           subSubHeading: "Sep 2022 - Aug 2024",
           description:
-            "Working under the supervision of Dr. Harutyunyan on algorithms and graoh theory.",
+            "Working under the supervision of Dr. Hovhannes Harutyunyan at the Algorithms and Complexity Lab.",
         },
         {
           mainHeading: "Software Engineer Intern",
@@ -112,12 +112,12 @@ export const content = {
         {
           mainHeading: "Algorithms and Graph Theory",
           description:
-            "My current research interests are in combinatorics of networks, more specifically in broadcasting algorithms.",
+            "My current research interests are in combinatorics of networks and broadcasting algorithms.",
         },
         {
           mainHeading: "Languages, Tools, and Frameworks",
           description:
-            "Python, Java, Javascript, React, Node.js, Flask, git, GitHub, VS Code, Jupyter Notebooks, Figma, LaTex",
+            "Python, Java, Javascript, React, Node.js, Flask, git, GitHub, Visual Studio Code, Jupyter Notebooks, Figma, LaTex",
         },
         {
           mainHeading: "Software Engineering",
