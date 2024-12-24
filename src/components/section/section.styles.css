@@ -1,7 +1,6 @@
 .section-overlay-bg {
-  min-height: 80vh;
+  /* min-height: 80vh; */
   padding-block: 10vh;
-  background-image: url(../../assets/images/overlay.png);
 }
 
 h2 {

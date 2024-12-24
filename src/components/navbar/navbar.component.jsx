@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import logo from '../../assets/images/logo-t.png';
 import {AppBar, Toolbar, Drawer} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -8,14 +8,7 @@ import './navbar.styles.css';
 
 export default function Navbar() {
     const [open, setOpen] = React.useState(false);
-    useEffect(() => {
-        window.addEventListener('scroll', () => {
-            if(window.pageYOffset / (document.body.offsetHeight - window.innerHeight))
-                document.body.style.setProperty('--scroll', 1);
-            else
-                document.body.style.setProperty('--scroll', 0);
-          }, false);
-    })
+
     return(
         <AppBar position="fixed">
             <Toolbar>
