@@ -2,8 +2,8 @@
 const grad1 = "linear-gradient(to bottom, #2528fd, #017e97)";
 const grad2 = "linear-gradient(to bottom, #017e97,  #09bc8a)";
 const grad3 = "linear-gradient(to bottom, #09bc8a,#4ab438)";
-// const grad4 = "linear-gradient(to bottom, #4ab438, #017e97)";
-// const grad5 = "linear-gradient(to bottom, #017e97, rgb(22, 17, 24))";
+const grad4 = "linear-gradient(to bottom, #4ab438, #017e97)";
+const grad5 = "linear-gradient(to bottom, #017e97, rgb(22, 17, 24))";
 
 export const content = {
   sections: {
