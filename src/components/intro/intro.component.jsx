@@ -1,5 +1,5 @@
 import React from "react";
-import official from "../../assets/images/new-official.jpg";
+import official from "../../assets/images/official.jpg";
 // import getAge from '../../utilities/age-calculator.js'
 import { Grid, Container } from "@material-ui/core";
 import "./intro.styles.css";
